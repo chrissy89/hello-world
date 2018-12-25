@@ -1,0 +1,848 @@
+ #pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5" 
+             "link6"
+            "link7" 
+             "link8" 
+             "link9"
+            "link10"
+             "link11"
+             "link12"
+             "historie"
+             "oprindeligide"
+             "worldpalace"
+             "worldpalace1"
+             "vannevarbush"
+             "vannevarbushpic"
+             "vannevarbush1"
+             "douglasengelbart"
+             "engelbart"
+             "engelbart1"
+             "tednelson"
+             "tednelsonpic"
+             "tednelson1"
+             "timbernes"
+             "timbernerslee"
+             "timbernerslee1"
+             "marcan"
+             "marcandreasen"
+             "marvandreasen1"
+             "nyeretid"
+             "nitiniseks"
+             "underconstruction"
+             "battle"
+             "totusinde"
+             "googlefind"
+             "found"
+             "totusindetre"
+             "myspaceandarto"
+             "notalone"
+             "totusindeti"
+             "mobiltnet"
+             "mobileapps"
+             "footer";
+    }
+  
+#pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+    
+header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: navy;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+    
+ #kortom {
+    grid-area: kortom;
+    justify-content: center;
+    text-align: center;
+     background-color: sandybrown;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+   
+}
+
+#link5{
+    grid-area: link5;
+    
+}
+
+#link6 {
+    grid-area: link6;
+}
+
+#link7 {
+    grid-area: link7;
+    
+}
+
+#link8 {
+    grid-area: link8;
+   
+}
+
+#link9 {
+    grid-area: link9;
+}
+
+#link10 {
+    grid-area: link10;
+}
+
+#link11 {
+    grid-area: link11;
+}
+
+#link12{
+    grid-area: link12;
+}
+
+
+#historie{
+    grid-area: historie;
+    
+}
+
+#oprindeligide {
+    grid-area: oprindeligide;
+}
+
+#worldpalace{
+    grid-area: worldpalace;
+    width: 100%;
+}
+
+#worldpalace1{
+    grid-area: worldpalace1;
+    width: 100%;
+}
+
+#vannevarbush{
+    grid-area: vannevarbush;
+}
+
+
+#vannevarbushpic {
+    grid-area: vannevarbushpic;
+    width: 100%;
+}
+
+#vannevarbush1{
+    grid-area: vannevarbush1;
+    width: 100%;
+}
+
+#douglasengelbart {
+    grid-area: douglasengelbart;
+}
+
+#engelbart {
+    grid-area: engelbart;
+    width: 100%;
+   
+}
+
+#engelbart1{
+    grid-area: engelbart1;
+    width: 100%;
+}
+
+#tednelson {
+    grid-area: tednelson;
+}
+
+#tednelsonpic {
+    grid-area: tednelsonpic;
+    width: 100%;
+}
+
+#tednelson1 {
+    grid-area: tednelson1;
+    width: 100%;
+}
+
+#timbernes{
+    grid-area: timbernes;
+}
+
+#timbernerslee {
+    grid-area: timbernerslee;
+    width: 100%;
+}
+
+#timbernerslee1{
+    grid-area: timbernerslee1;
+    width: 100%;
+}
+
+#marcan {
+    grid-area: marcan;
+}
+
+#marcandreasen{
+    grid-area: marcandreasen;
+    width: 100%;
+}
+
+#marvandreasen1{
+    grid-area: marvandreasen1;
+    width: 100%;
+}
+
+#nyeretid{
+    grid-area: nyeretid;
+}
+
+
+#nitiniseks {
+    grid-area: paragraph;
+}
+
+#underconstruction {
+    grid-area: underconstruction;
+    width: 100%;
+}
+
+#battle{
+    grid-area: battle;
+    width: 100%;
+}
+
+
+#totusinde {
+    grid-area: totusinde;
+}
+
+#googlefind {
+    grid-area: googlefind;
+    width: 100%;
+}
+
+#found{
+    grid-area: found;
+    100%;
+}
+
+#totusindetre{
+    grid-area: totusindetre;
+    
+}
+
+#myspaceandarto {
+    grid-area: myspaceandarto;
+    width: 100%;
+}
+
+#notalone{
+    grid-area: notalone;
+    width: 100%;
+}
+
+#totusindeti {
+    grid-area: totusindeti;
+}
+
+#mobiltnet {
+    grid-area: mobiltnet;
+    width: 100%;
+}
+
+#mobileapps{
+    grid-area: mobileapps;
+    width: 100%;
+}
+
+
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;
+    
+    
+    
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+ 
+     
+
+    
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+
+}
+
+
+ 
+
+
+
+
+/*tablet*/
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr 1fr;
+         grid-template-areas: 
+             "header header"
+            "navigation navigation"
+            "hypertext hypertext"
+            "link1 link2"  
+             "link3 link4"
+             "link5 link6" 
+            "link7 link8" 
+             "link9 link10"
+             "link11 link12"
+             "historie historie"
+             "oprindeligide oprindeligide"
+             "worldpalace worldpalace1"
+             "vannevarbush vannevarbush"
+             "vannevarbushpic vannevarbush1"
+             "douglasengelbart douglasengelbart"
+             "engelbart engelbart1"
+             "tednelson"
+             "tednelsonpic tednelson1"
+             "timbernes timbernes"
+             "timbernerslee timbernerslee1"
+             "marcan marcan"
+             "marcandreasen marvandreasen1"
+             "nyeretid nyeretid"
+             "nitiniseks nitiniseks"
+             "underconstruction battle"
+             "totusinde totusinde"
+             "googlefind found"
+             "totusindetre totusindetre"
+             "myspaceandarto notalone"
+             "totusindeti totusindeti"
+             "mobiltnet mobileapps"
+             "footer footer";
+    }
+
+    
+    body {
+        background-color: royalblue;}
+    
+    #kortom{
+        background-color: blue;
+    }
+    
+    #worldpalace {
+    grid-area: worldpalace;
+        width: auto;
+}
+    #worldpalace1 {
+    grid-area: worldpalace1;
+    width: auto;
+   
+}
+    #vannevarbushpic {
+    grid-area: vannevarbushpic;
+    width: auto;
+}
+    
+   #vannevarbush1 {
+    grid-area: vannevarbush1;
+    width: auto;
+} 
+
+    #engelbart {
+    grid-area: engelbart;
+    width: auto;
+}
+    
+  #engelbart1 {
+    grid-area: engelbart1;
+    width: auto;
+}  
+    
+  #tednelsonpic {
+    grid-area: tednelsonpic;
+    width: auto;
+}  
+    
+#tednelson1 {
+    grid-area: tednelson1;
+    width: auto;
+}
+    
+    #timbernerslee {
+    grid-area: timbernerslee;
+    width: auto;
+}
+    
+    #timbernerslee1 {
+    grid-area: timbernerslee1;
+    width: auto;
+}
+    
+   #marcandreasen {
+    grid-area: marcandreasen;
+    width: auto;
+} 
+    
+    #marvandreasen1{
+        grid-area: marvandreasen1;
+        width: auto;
+    }
+    
+    #underconstruction{
+        grid-area: underconstruction;
+        width: auto;
+    }
+    
+    #battle{
+        grid-area: battle;
+        width: auto;
+    }
+    
+    #googlefind{
+        grid-area: googlefind;
+        width: auto;
+    }
+    
+    #found{
+        grid-area: found;
+        width: auto;
+    }
+    
+    #myspaceandarto{
+        grid-area: myspaceandarto;
+        width: auto;
+    }
+    
+    #notalone{
+        grid-area: notalone;
+        width: auto;
+    }
+    
+    #mobiltnet{
+        grid-area: mobiltnet;
+        width: auto;
+    }
+    
+    #mobileapps{
+        grid-area: mobileapps;
+        width: auto;
+    } 
+    
+   #ocean {
+    height: 200px; 
+} 
+ 
+    #Kommentarer {
+    grid-area: kommentarer;
+        background-color: blue; 
+}
+    
+}
+
+@media screen and (min-width:1000px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-template-columns: 1fr 1fr;
+         grid-template-areas: 
+             "header header"
+            "navigation navigation"
+            "hypertext hypertext"
+            "link1 link2"
+             "link3 link4"
+             "link5 link6" 
+            "link7 link8"
+             "link9 link10"
+            "link11 link12"
+             "historie historie"
+             "oprindeligide worldpalace"
+             "vannevarbush vannevarbushpic "
+             "douglasengelbart engelbart"
+             "tednelson tednelsonpic"
+             "timbernes timbernerslee"
+             "marcan marcandreasen"
+             "nyeretid nyeretid"
+             "nitiniseks battle"
+             "totusinde googlefind"
+             "totusindetre notalone"
+             "totusindeti mobileapps"
+             "footer footer";
+    }
+    
+    #oprindeligide {
+    grid-area: oprindeligide;
+    position: relative;
+    text-align: center;
+    color: black;
+    
+    
+}
+    #worldpalace{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+    #worldpalace1{
+        display: none;
+    }
+    
+    body{
+        background-color: cadetblue;
+    }
+    
+    #kortom {
+    grid-area: kortom;
+    position: relative;
+    text-align: center;
+    color: black;
+     background-color: teal;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+   
+}
+
+#link5{
+    grid-area: link5;
+    
+}
+
+#link6 {
+    grid-area: link6;
+}
+
+#link7 {
+    grid-area: link7;
+    
+}
+
+#link8 {
+    grid-area: link8;
+   
+}
+
+#link9 {
+    grid-area: link9;
+}
+
+#link10 {
+    grid-area: link10;
+}
+
+#link11 {
+    grid-area: link11;
+}
+
+#link12{
+    grid-area: link12;
+}
+
+
+#historie{
+    grid-area: historie;
+     position: relative;
+    text-align: center;
+    color: black;
+    
+}
+
+
+#vannevarbush{
+    grid-area: vannevarbush;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+
+#vannevarbushpic {
+    grid-area: vannevarbushpic;
+    width: 100%;
+     display: none;
+}
+
+#vannevarbush1{
+    grid-area: vannevarbush1;
+    display: block;
+     margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#douglasengelbart {
+    grid-area: douglasengelbart;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#engelbart {
+    grid-area: engelbart;
+    width: 100%;
+     display: none;
+   
+}
+
+#engelbart1{
+    grid-area: engelbart1;
+    display: block;
+     margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#tednelson {
+    grid-area: tednelson;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#tednelsonpic {
+    grid-area: tednelsonpic;
+    width: 100%;
+     display: none;
+}
+
+#tednelson1 {
+    grid-area: tednelson1;
+    display: block;
+     margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#timbernes{
+    grid-area: timbernes;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#timbernerslee {
+    grid-area: timbernerslee;
+    width: 100%;
+     display: none;
+}
+
+#timbernerslee1{
+    grid-area: timbernerslee1;
+    display: block;
+     margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#marcan {
+    grid-area: marcan;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#marcandreasen{
+    grid-area: marcandreasen;
+    width: 100%;
+     display: none;
+}
+
+#marvandreasen1{
+    grid-area: marvandreasen1;
+    display: block;
+     margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#nyeretid{
+    grid-area: nyeretid;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+
+#nitiniseks {
+    grid-area: paragraph;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#underconstruction {
+    grid-area: underconstruction;
+    width: 100%;
+     display: none;
+}
+
+#battle{
+    grid-area: battle;
+    display: block;
+     margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+
+#totusinde {
+    grid-area: totusinde;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#googlefind {
+    grid-area: googlefind;
+    display: block;
+     margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#found{
+    grid-area: found;
+    width: 100%;
+     display: none;
+}
+
+#totusindetre{
+    grid-area: totusindetre;
+     position: relative;
+    text-align: center;
+    color: black;
+    
+}
+
+#myspaceandarto {
+    grid-area: myspaceandarto;
+    width: 100%;
+     display: none;
+}
+
+#notalone{
+    grid-area: notalone;
+    display: block;
+     margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#totusindeti {
+    grid-area: totusindeti;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#mobiltnet {
+    grid-area: mobiltnet;
+    display: block;
+     margin-left: auto;
+        margin-right: auto;
+        width: auto;margin-bottom: 20px;
+    
+    
+}
+
+#mobileapps{
+    grid-area: mobileapps;
+    width: 100%;
+    display: none;
+}
+    
+    }
