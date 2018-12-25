@@ -1,0 +1,146 @@
+
+#pagewrap {
+         display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr;
+         grid-template-areas: 
+            "a"
+            "b"
+            "c"
+            "d";
+    }
+
+#pagewrap {
+    width: 100%;
+    
+}
+body {
+    background-color: bisque;}
+
+body, html {
+    margin: 1 em;
+    padding: 0;
+    width: 100%;}
+    
+
+header  {
+    grid-area: a;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+#navigation {
+     grid-area: b;
+    background-color: navy;
+    color: black;
+   
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+#indhold {
+    grid-area: c;
+    font-family:sans-serif;
+     justify-content: center;
+    text-align: center;
+    background-color: sandybrown;
+    
+    
+}
+
+
+
+
+footer {
+    
+    grid-area: d;
+      position: relative;
+    text-align: center;
+    color: black;
+   
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+  
+    
+ #menu {
+    background-color: gray;
+    grid-area: b;
+   
+   
+}
+
+@media screen and (min-width:768px){
+#pagewrap {
+         display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr;
+         grid-template-areas: 
+            "a"
+            "b"
+            "c"
+            "d";
+    }
+    
+    body{
+        background-color: royalblue;
+    }
+    
+    #indhold{
+        background-color: blue;
+    }
+    
+    #ocean{
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:1000px){
+#pagewrap {
+         display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr;
+         grid-template-areas: 
+            "a"
+            "b"
+            "c"
+            "d";
+    }
+    
+    body{
+        background-color: cadetblue;
+    }
+    
+    #indhold{
+        background-color: teal;
+    }
+}
