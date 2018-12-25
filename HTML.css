@@ -1,0 +1,736 @@
+ #pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "hypertext"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5" 
+             "link6"
+            "link7" 
+             "link8" 
+             "link9"
+            "link10"
+             "link11"
+             "link12"
+             "link13"
+             "ombrackets"
+             "htmlibrackets"
+             "head"
+             "elementer"
+             "elementer1"
+             "headings"
+             "headingsimg"
+             "semantisketags"
+             "semantisketags1"
+             "indhold"
+             "sektioner"
+             "indhold1"
+             "paragraph"
+             "paragraphs"
+             "lister"
+             "liste"
+             "hyper"
+             "link"
+             "attribut"
+             "attribut1"
+             "billeder"
+             "billede"
+             "kommentarer"
+             "kommentar"
+             "validering"
+             "footer";
+    }
+  
+#pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+    
+header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: navy;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+    
+ #hypertext {
+    grid-area: hypertext;
+    justify-content: center;
+    text-align: center;
+     background-color: sandybrown;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+   
+}
+
+#link5{
+    grid-area: link5;
+    
+}
+
+#link6 {
+    grid-area: link6;
+}
+
+#link7 {
+    grid-area: link7;
+    
+}
+
+#link8 {
+    grid-area: link8;
+   
+}
+
+#link9 {
+    grid-area: link9;
+}
+
+#link10 {
+    grid-area: link10;
+}
+
+#link11 {
+    grid-area: link11;
+}
+
+#link12{
+    grid-area: link12;
+}
+
+#link13 {
+    grid-area: link13;
+}
+
+#Kortom {
+    grid-area: kortom;
+    
+}
+
+#Ombrackets {
+    grid-area: ombrackets;
+}
+
+#HTMLiBrackets {
+    grid-area: htmlibrackets;
+}
+
+
+
+#headhtml {
+    grid-area: head;
+    width: 100%;
+}
+
+#Elementeri {
+    grid-area: elementer;
+}
+
+#elementer {
+    grid-area: elementer1;
+    width: 100%;
+   
+}
+
+#Headings1 {
+    grid-area: headings;
+}
+
+#headingsimg {
+    grid-area: headingsimg;
+    width: 100%;
+}
+
+#Semantisketags1 {
+    grid-area: semantisketags;
+}
+
+#semantisketags {
+    grid-area: semantisketags1;
+    width: 100%;
+}
+
+#Indhold {
+    grid-area: indhold;
+}
+
+#Sektioner {
+    grid-area: sektioner;
+}
+
+#indholdimg {
+    grid-area: indhold1;
+    width: 100%;
+}
+
+#Paragraph1 {
+    grid-area: paragraph;
+}
+
+#paragraphs {
+    grid-area: paragraphs;
+    width: 100%;
+}
+
+#Lister1 {
+    grid-area: lister;
+}
+
+#liste {
+    grid-area: liste;
+    width: 100%;
+}
+
+#Hyper1 {
+    grid-area: hyper;
+    
+}
+
+#link {
+    grid-area: link;
+    width: 100%;
+}
+
+#Attribut1 {
+    grid-area: attribut;
+}
+
+#attribut {
+    grid-area: attribut1;
+    width: 100%;
+}
+
+#Billeder1 {
+    grid-area: billeder;
+}
+
+#billede {
+    grid-area: billede;
+    width: 100%;
+}
+
+#Kommentarer1 {
+    grid-area: kommentarer;
+}
+
+#kommentar {
+    grid-area: kommentar;
+    width: 100%;
+}
+
+#Validering1 {
+    grid-area: validering; 
+}
+
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;
+    
+    
+    
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+ 
+     
+
+    
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+
+}
+
+
+ 
+
+
+
+
+/*tablet*/
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr 1fr;
+         grid-template-areas: 
+             "header header"
+            "navigation navigation"
+            "hypertext hypertext"
+            "link1 link2"  
+             "link3 link4"
+             "link5 link6" 
+            "link7 link8" 
+             "link9 link10"
+             "link11 link12"
+             "link13 link13"
+             "ombrackets ombrackets"
+             "htmlibrackets head"
+             "elementer elementer1"
+             "headings headingsimg"
+             "semantisketags semantisketags1"
+             "indhold sektioner"
+             "indhold1 indhold1"
+             "paragraph paragraphs"
+             "lister liste"
+             "hyper link"
+             "attribut attribut1"
+             "billeder billede"
+             "kommentarer kommentar"
+             "validering validering"
+             "footer footer";
+    }
+
+    
+    body {
+        background-color: royalblue;}
+    
+    #hypertext{
+        background-color: blue;
+    }
+    
+    #headhtml {
+    grid-area: head;
+        width: auto;
+}
+    #elementer {
+    grid-area: elementer1;
+    width: auto;
+   
+}
+    #headingsimg {
+    grid-area: headingsimg;
+    width: auto;
+}
+    
+   #semantisketags {
+    grid-area: semantisketags1;
+    width: auto;
+} 
+
+    #indholdimg {
+    grid-area: indhold1;
+    width: auto;
+}
+    
+  #paragraphs {
+    grid-area: paragraphs;
+    width: auto;
+}  
+    
+  #liste {
+    grid-area: liste;
+    width: auto;
+}  
+    
+#link {
+    grid-area: link;
+    width: auto;
+    align-content: center;
+}
+    
+    #attribut {
+    grid-area: attribut1;
+    width: auto;
+}
+    
+    #billede {
+    grid-area: billede;
+    width: auto;
+}
+    
+   #kommentar {
+    grid-area: kommentar;
+    width: auto;
+} 
+    
+   #ocean {
+    height: 200px; 
+} 
+ 
+    #Kommentarer {
+    grid-area: kommentarer;
+        background-color: blue; 
+}
+    
+}
+
+@media screen and (min-width:1000px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr 1fr;
+         grid-template-areas: 
+             "header header"
+            "navigation navigation"
+            "hypertext hypertext"
+            "link1 link2"  
+             "link3 link4"
+             "link5 link6" 
+            "link7 link8" 
+             "link9 link10"
+             "link11 link12"
+             "link13 link13"
+             "ombrackets ombrackets"
+             "htmlibrackets head"
+             "elementer elementer1"
+             "headings headingsimg"
+             "semantisketags semantisketags1"
+             "indhold sektioner"
+             "indhold1 indhold1"
+             "paragraph paragraphs"
+             "lister liste"
+             "hyper link"
+             "attribut attribut1"
+             "billeder billede"
+             "kommentarer kommentar"
+             "validering validering"
+             "footer footer";
+    }
+    
+    body{
+        background-color: cadetblue;
+    }
+    
+    #hypertext {
+    grid-area: hypertext;
+    position: relative;
+    text-align: center;
+    color: black;
+     background-color: teal;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+   
+}
+
+#link5{
+    grid-area: link5;
+    
+}
+
+#link6 {
+    grid-area: link6;
+}
+
+#link7 {
+    grid-area: link7;
+    
+}
+
+#link8 {
+    grid-area: link8;
+   
+}
+
+#link9 {
+    grid-area: link9;
+}
+
+#link10 {
+    grid-area: link10;
+}
+
+#link11 {
+    grid-area: link11;
+}
+
+#link12{
+    grid-area: link12;
+}
+
+#link13 {
+    grid-area: link13;
+}
+
+#Kortom {
+    grid-area: kortom;
+        position: relative;
+    text-align: center;
+    color: black;
+    
+}
+
+#Ombrackets {
+    grid-area: ombrackets;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#HTMLiBrackets {
+    grid-area: htmlibrackets;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+    
+#headhtml {
+    grid-area: head;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#Elementeri {
+    grid-area: elementer;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#elementer {
+    grid-area: elementer1;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+   
+}
+
+#Headings1 {
+    grid-area: headings;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#headingsimg {
+    grid-area: headingsimg;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#Semantisketags1 {
+    grid-area: semantisketags;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#semantisketags {
+    grid-area: semantisketags1;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#Indhold {
+    grid-area: indhold;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#Sektioner {
+    grid-area: sektioner;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#indholdimg {
+    grid-area: indhold1;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#Paragraph1 {
+    grid-area: paragraph;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#paragraphs {
+    grid-area: paragraphs;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#Lister1 {
+    grid-area: lister;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#liste {
+    grid-area: liste;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#Hyper1 {
+    grid-area: hyper;
+    position: relative;
+    text-align: center;
+    color: black;
+    
+}
+
+#link {
+    grid-area: link;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#Attribut1 {
+    grid-area: attribut;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#attribut {
+    grid-area: attribut1;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#Billeder1 {
+    grid-area: billeder;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#billede {
+    grid-area: billede;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#Kommentarer1 {
+    grid-area: kommentarer;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#kommentar {
+    grid-area: kommentar;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+}
+
+#Validering1 {
+    grid-area: validering;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+}
+
+
+
+    
+
