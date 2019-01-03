@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <title>Webserver og FTP</title>
+        <link rel="stylesheet" href="Webservere%20og%20FTP.css">
+    </head> 
+    
+    <body> 
+    <div id="Pagewrap">
+        <header> <img id="sunset" src="sunset.jpg"> </header>
+        
+       <nav id="navigation">
+            <ul id="menu">    
+               <li id="menu1">
+                    <a href="index.html"> Forside </a>   
+                </li>
+                
+                
+              <li id="menu2">
+                 <a href="Webdesign.html">  Webdesign </a>   </li> 
+                
+                <li id="menu3"> 
+                   <a href="design.html">  Design </a>    </li>
+                
+                <li id="menu4">
+                    <a href="Kommunikation.html">  Kommunikation </a>    </li>
+                    
+                    
+                <li id="menu5">  <a href="Design%20Thinking.html">  Design Thinking </a>  </li>
+                
+                <li id="menu6">
+                   <a href="HTML%20og%20CSS%20Workshop.html">  HTML og CSS Workshop </a> 
+                    </li>
+                
+                <li id="menu7"> 
+                     <a href="One%20Page%20Project.html">  One Page Project </a> 
+                    </li>
+                
+                <li id="menu8"> 
+                <a href="L%C3%A6ringsportfolio.html">  Læringsportfolio </a> 
+                
+                
+                </ul>
+        
+        </nav>           
+ 
+ <section id="kortom">
+        <h1 id="op">Servere og FTP </h1>
+     <p> På denne side er opsat forskellige lister, der indeholder information om de forskellige ting indenfor webservere og FTP. Jeg kommer b.la. ind på forskellige servere.</p>
+     </section>
+     
+        <section class="links"> 
+            
+           <a id="link1" href="#be">Begrebet Server</a>
+             <a id="link2" href="#fo">Forskellige servere</a>
+             <a id="link3" href="#kl">Klienterne</a>
+             <a id="link4" href="#we">Webserver</a>
+             <a id="link5" href="#ad">Adgang til serveren</a>
+             <a id="link6" href="#web">Website på en server</a>
+             <a id="link7" href="#tld">TLD- Top Level Domains </a>
+             <a id="link8" href="#dns">DNS-Dynamisk Navne Server</a>
+               </section> 
+        
+     <section id="begrebet">
+         <h1 id="be"> Begrebet Server </h1>
+            <li>Hardware med en særlig rolle.</li>
+            <li> Software med en særlig rolle.</li>
+            <li> Server software kan installeres på maskiner som ikke er beregnet til det.</li>
+            <li>En computer kan afvikle flere server-programmer på samme tid. <li>Eks server som både er mailserver og printserver</li> 
+            <li>Maskinen benævnes typisk ”server”</li>
+            <li>Programmet benævnes typisk ”[funktion] + server” (eks: mailserver)</li>
+            <li> En server kan eks. Være placeret i et datacenter, på et skrivebord eller i en ”dims”</li>
+        </section>
+        
+        <section id="hardvssoft">
+            <p>Hardware vs software </p>
+        <img id="ware" src="hardware-vs-software.jpg">
+            </section>
+     
+     <section id="forskellig">
+            <h1 id="fo">Forskellige servere</h1>
+           <li>Filserver, (eks. C på din computer på skrivebordet i denne computer)</li>
+            <li> Print-server</li>
+            <li>Web-server, kan levere websider</li>
+            <li>En computer kan afvikle flere server-programmer på samme tid. <li>
+         <li>Eks server som både er mailserver og printserver</li> 
+            <li>FTP-server, noget der er beregnet til at installere servere på. </li>
+            <li>Mail-server, eks. Konto ved google, er en mail-server på google</li>
+            <li> Database-server, der hvor man kan gemme data af enhver art</li>
+         <li>SSH-server, server der er beregnet til at kommunikere på en særlig sikker måde  </li>
+         <li> RDP-server, avancerede udgave af SSH, fjernstyret program hvor man se skrivebordet på en anden maskine. </li>
+           <p><a id="linkop" href="#op">Op til links</a></p>
+        </section> 
+            
+            <section id="klienterne"> 
+            <h1 id="kl"> Klienterne</h1>
+                 <li>En server tilgås med en klient </li>
+                 <li>Klienten er et program der kobler sig til serveren, og udveksler information med denne </li>
+                 <li>En web-server kommunikerer med en web-klient </li>
+                 <li>En FTP-server kommunikere med en FTP-klient (FTP-program, eller indbygget i eks. Dreamweaver) </li>
+                 <li>En printserver kommunikere med en printklient der er en (usynlig) del af styresystemet  </li>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+                </section>
+        
+        <section id="clientserver">
+            <p> Client server model</p>
+        <img id="client" src="Client-Server_Model.jpg">
+            </section>
+            
+            <section id="webserver"> 
+            <h1 id="we"> Webserver</h1>
+              <li> En web-server (i hardware mæssig forstand) kan indeholde flere servere (i softwaremæssig forstand)</li>
+                 <li>Web-server- levere websider via http-protokollen, laver siden og sender den ud </li>
+                 <li>Databaseserver, modtager data fra, og levere data til web-servere og andre klienter </li>
+                 <li>FTP-server, udveksler filer til anvendelse på web-server mv. mulighed for at lave nyt design på hjemmesiden.  </li>
+                 <li>Web-server på apache – open source, billigst hvis ikke gratis at bruge  </li>
+                 <li>Web-server på IS – Microsoft  </li>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+            </section>
+                
+            <section id="adgang"> 
+                <h1 id="ad"> Adgang til serveren</h1>
+            <li>Der findes flere måder at tilgå og opdatere en server med nye filer på.
+                FTP er en udbredt metode men alternativet kan være direkte filadgang.</li>
+                <li>Konfiguration kan ske med SSH (terminaladgang)  </li>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+                </section>
+      
+        <section id="ftpsection">
+            <p> Ftp til computere</p>
+        <img id="ftp" src="ftp_made_simple-main.jpg"> 
+            </section>
+       
+            <section id="website"> 
+            <h1 id="web"> Website på en server </h1>
+           <li>Webserveren levere HTML, CSS og Javascript samt billeder mv. til klienter (browsere) </li>
+                <li> De nødvendige filer ligger på serveren</li>
+                <li> Serveren har en IP-adresse (eks. 102.10.5.245)</li>
+                <li>IP-adressen kan være tilknytte et domæne (eks. www.minside.dk) </li>
+                <li> En browser kan anvende ip-adresse eller domæne</li>
+                <li>Domænenavnet oversættes i en DNS-server til den rigtige IP-adresse.  </li>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+                </section>
+       
+            <section id="topsi"> 
+            <h1 id="tld"> TLD- Top Level Domains </h1>
+            <p> Det vi bruger er:.dk,  .com,  .org,  .eu  og .net.</p>
+                <li>Kan gå ind og købe et domæne  </li>
+                <li>I DK har vi .dk-domænet  </li>
+                <li>I Sverige hedder de f.eks. .se-domænet </li>
+                <li>Det engelske hedder .uk og med .co.uk </li>
+                <p>dk-hostmaster.dk</p>
+                <li>Søge efter og købe et domænenavn ved at gå ind igennem deres forhandlere </li>
+                <li>Tjene penge, så betale for domænet, ca. 150 kr.  og ellers betale 45 kr. om året </li>
+                <li> Skal finde ud af hvem der har ret til at få et domæne </li>
+                <li>Det sikreste sted at finde et nyt domæne </li>
+                <li>ip-adressen er noget man kan få fra det internetselskab man er tilkoblet.</li>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+                </section>
+        
+        <section id="domain">
+            <p>Your Identity </p>
+         <img id="host" src="dk-your_identity.jpg">
+            </section>
+    
+        <section id="dynamisk"> 
+                <h1 id="dns"> DNS-Dynamisk Navne Server</h1>
+                <li>”snakker sammen” hver halve time, så hvis der sker ændringer med domænenavnet ved de andre DNS’er det </li>
+                <li> Bør have en side, hvor der både er www eller en stjerne, så domænet kan findes uanset om der bruges www eller ikke. </li>
+                <li> Regler: ikke bruge æ, ø eller å, men det kan man godt alligevel, men man skal holde tingene lige i munden, så prøv at undgå det. Kun brug bindestreg. </li>
+           
+        </section>
+        
+        <section id="dynamisknavn">
+            <p> Domain name system</p>
+         <img id="dnspic" src="dns.jpg">
+        </section>
+        
+        
+       
+        <footer> 
+            
+        <img id="ocean" src="ocean.jpg">
+            <div class="centered">
+                 <h2>Info </h2>
+                 <p> Christina Fodgaard </p>
+                 <p> Multimediedesigner</p>
+                 <p>Eksamen 1. semester </p>
+                 <p>&copy;Christina Fodgaard </p>
+             
+            </div>
+        </footer>
+               </div>
+    </body>

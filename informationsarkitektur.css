@@ -1,0 +1,258 @@
+ #pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+             "huset"
+             "husetbilleder"
+             "bruges"
+             "brugesbilleder"
+             "lego"
+             "legobilleder"
+             "footer";
+    }
+  
+#pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+    
+header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: navy;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+    
+ #kortom {
+    grid-area: kortom;
+    justify-content: center;
+    text-align: center;
+     background-color: sandybrown;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#huset{
+    grid-area: huset;
+    
+}
+
+#husetbilleder{
+    grid-area: husetbilleder;
+}
+
+#bruges{
+    grid-area: bruges;
+}
+
+#brugesbilleder{
+    grid-area: brugesbilleder;
+}
+
+#lego{
+    grid-area: lego;
+}
+
+#legobilleder{
+    grid-area: legobilleder;
+}
+
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;   
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+
+}
+
+
+/*tablet*/
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+              "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+             "huset"
+             "husetbilleder"
+             "bruges"
+             "brugesbilleder"
+             "lego"
+             "legobilleder"
+             "footer";
+    }
+
+    
+    body {
+        background-color: royalblue;}
+    
+    #kortom{
+        background-color: blue;
+    }
+    
+   #ocean {
+    height: 200px; 
+} 
+    
+}
+
+
+
+@media screen and (min-width:1200px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+             "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+             "huset"
+             "husetbilleder"
+             "bruges"
+             "brugesbilleder"
+             "lego"
+             "legobilleder"
+             "footer";
+    }
+    
+    
+    body{
+        background-color: cadetblue;
+    }
+    
+    #kortom {
+    grid-area: kortom;
+    position: relative;
+        text-align: center;
+    color: black;
+     background-color: teal;
+    
+}
+    
+    #huset{
+    grid-area: huset;
+         position: relative;
+        text-align: center;
+    color: black;
+    
+}
+    
+    #husetbilleder{
+        grid-area: husetbilleder;
+         position: relative;
+        text-align: center;
+    color: black;
+    }
+
+#bruges{
+    grid-area: bruges;
+     position: relative;
+        text-align: center;
+    color: black;
+}
+
+    #brugesbilleder{
+        grid-area: brugesbilleder;
+         position: relative;
+        text-align: center;
+    color: black;
+    }
+
+#lego{
+    grid-area:lego;
+     position: relative;
+        text-align: center;
+    color: black;
+}
+    
+    #legobilleder{
+        grid-area: legobilleder;
+         position: relative;
+        text-align: center;
+    color: black;
+    }
+
+
+
+    
+    }

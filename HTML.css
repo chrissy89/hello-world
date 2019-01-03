@@ -20,30 +20,20 @@
              "link11"
              "link12"
              "link13"
+             "kortom"
              "ombrackets"
              "htmlibrackets"
-             "head"
-             "elementer"
-             "elementer1"
+             "elementeri"
              "headings"
-             "headingsimg"
-             "semantisketags"
-             "semantisketags1"
+             "semantisk"
              "indhold"
              "sektioner"
-             "indhold1"
              "paragraph"
-             "paragraphs"
              "lister"
-             "liste"
              "hyper"
-             "link"
              "attribut"
-             "attribut1"
              "billeder"
-             "billede"
              "kommentarer"
-             "kommentar"
              "validering"
              "footer";
     }
@@ -159,123 +149,65 @@ header  {
     grid-area: link13;
 }
 
-#Kortom {
+#kortom {
     grid-area: kortom;
     
 }
 
-#Ombrackets {
+#ombrackets {
     grid-area: ombrackets;
 }
 
-#HTMLiBrackets {
+#htmlibrackets{
     grid-area: htmlibrackets;
 }
 
-
-
-#headhtml {
-    grid-area: head;
-    width: 100%;
+#elementeri {
+    grid-area: elementeri;
 }
 
-#Elementeri {
-    grid-area: elementer;
-}
-
-#elementer {
-    grid-area: elementer1;
-    width: 100%;
-   
-}
-
-#Headings1 {
+#headings{
     grid-area: headings;
 }
 
-#headingsimg {
-    grid-area: headingsimg;
-    width: 100%;
+#semantisk{
+    grid-area: semantis;
 }
 
-#Semantisketags1 {
-    grid-area: semantisketags;
-}
-
-#semantisketags {
-    grid-area: semantisketags1;
-    width: 100%;
-}
-
-#Indhold {
+#indhold {
     grid-area: indhold;
 }
 
-#Sektioner {
+#sektioner {
     grid-area: sektioner;
 }
 
-#indholdimg {
-    grid-area: indhold1;
-    width: 100%;
-}
-
-#Paragraph1 {
+#paragraph{
     grid-area: paragraph;
 }
 
-#paragraphs {
-    grid-area: paragraphs;
-    width: 100%;
-}
-
-#Lister1 {
+#lister{
     grid-area: lister;
 }
 
-#liste {
-    grid-area: liste;
-    width: 100%;
-}
-
-#Hyper1 {
+#hyper{
     grid-area: hyper;
     
 }
 
-#link {
-    grid-area: link;
-    width: 100%;
-}
-
-#Attribut1 {
+#attribut{
     grid-area: attribut;
 }
 
-#attribut {
-    grid-area: attribut1;
-    width: 100%;
-}
-
-#Billeder1 {
+#billeder{
     grid-area: billeder;
 }
 
-#billede {
-    grid-area: billede;
-    width: 100%;
-}
-
-#Kommentarer1 {
+#kommentarer{
     grid-area: kommentarer;
 }
 
-#kommentar {
-    grid-area: kommentar;
-    width: 100%;
-}
-
-#Validering1 {
+#validering{
     grid-area: validering; 
 }
 
@@ -283,12 +215,8 @@ footer {
     grid-area: footer;
     position: relative;
     text-align: center;
-    color: black;
-    
-    
-    
+    color: black;  
 }
-
 
 .centered {
   position: absolute;
@@ -301,20 +229,9 @@ footer {
     width: 100%;
 }
     
- 
-     
-
-    
-
 blockquote:before, blockquote:after, q:before, q:after {
     content:''; content:none;
-
 }
-
-
- 
-
-
 
 
 /*tablet*/
@@ -323,33 +240,40 @@ blockquote:before, blockquote:after, q:before, q:after {
     display: grid;
         width: 100%;
          grid-gap: 0em;
-         grid-template-columns: 1fr 1fr;
+         grid-template-columns: 1fr;
          grid-template-areas: 
-             "header header"
-            "navigation navigation"
-            "hypertext hypertext"
-            "link1 link2"  
-             "link3 link4"
-             "link5 link6" 
-            "link7 link8" 
-             "link9 link10"
-             "link11 link12"
-             "link13 link13"
-             "ombrackets ombrackets"
-             "htmlibrackets head"
-             "elementer elementer1"
-             "headings headingsimg"
-             "semantisketags semantisketags1"
-             "indhold sektioner"
-             "indhold1 indhold1"
-             "paragraph paragraphs"
-             "lister liste"
-             "hyper link"
-             "attribut attribut1"
-             "billeder billede"
-             "kommentarer kommentar"
-             "validering validering"
-             "footer footer";
+            "header"
+            "navigation"
+            "hypertext"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5" 
+             "link6"
+            "link7" 
+             "link8" 
+             "link9"
+            "link10"
+             "link11"
+             "link12"
+             "link13"
+             "kortom"
+             "ombrackets"
+             "htmlibrackets"
+             "elementeri"
+             "headings"
+             "semantisk"
+             "indhold"
+             "sektioner"
+             "paragraph"
+             "lister"
+             "hyper"
+             "attribut"
+             "billeder"
+             "kommentarer"
+             "validering"
+             "footer";
     }
 
     
@@ -360,104 +284,53 @@ blockquote:before, blockquote:after, q:before, q:after {
         background-color: blue;
     }
     
-    #headhtml {
-    grid-area: head;
-        width: auto;
-}
-    #elementer {
-    grid-area: elementer1;
-    width: auto;
-   
-}
-    #headingsimg {
-    grid-area: headingsimg;
-    width: auto;
-}
-    
-   #semantisketags {
-    grid-area: semantisketags1;
-    width: auto;
-} 
-
-    #indholdimg {
-    grid-area: indhold1;
-    width: auto;
-}
-    
-  #paragraphs {
-    grid-area: paragraphs;
-    width: auto;
-}  
-    
-  #liste {
-    grid-area: liste;
-    width: auto;
-}  
-    
-#link {
-    grid-area: link;
-    width: auto;
-    align-content: center;
-}
-    
-    #attribut {
-    grid-area: attribut1;
-    width: auto;
-}
-    
-    #billede {
-    grid-area: billede;
-    width: auto;
-}
-    
-   #kommentar {
-    grid-area: kommentar;
-    width: auto;
-} 
-    
    #ocean {
     height: 200px; 
 } 
  
-    #Kommentarer {
-    grid-area: kommentarer;
-        background-color: blue; 
 }
-    
-}
+
+
 
 @media screen and (min-width:1000px){
     #pagewrap{
     display: grid;
         width: 100%;
          grid-gap: 0em;
-         grid-template-columns: 1fr 1fr;
+         grid-template-columns: 1fr;
          grid-template-areas: 
-             "header header"
-            "navigation navigation"
-            "hypertext hypertext"
-            "link1 link2"  
-             "link3 link4"
-             "link5 link6" 
-            "link7 link8" 
-             "link9 link10"
-             "link11 link12"
-             "link13 link13"
-             "ombrackets ombrackets"
-             "htmlibrackets head"
-             "elementer elementer1"
-             "headings headingsimg"
-             "semantisketags semantisketags1"
-             "indhold sektioner"
-             "indhold1 indhold1"
-             "paragraph paragraphs"
-             "lister liste"
-             "hyper link"
-             "attribut attribut1"
-             "billeder billede"
-             "kommentarer kommentar"
-             "validering validering"
-             "footer footer";
+           "header"
+            "navigation"
+            "hypertext"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5" 
+             "link6"
+            "link7" 
+             "link8" 
+             "link9"
+            "link10"
+             "link11"
+             "link12"
+             "link13"
+             "kortom"
+             "ombrackets"
+             "htmlibrackets"
+             "elementeri"
+             "headings"
+             "semantisk"
+             "indhold"
+             "sektioner"
+             "paragraph"
+             "lister"
+             "hyper"
+             "attribut"
+             "billeder"
+             "kommentarer"
+             "validering"
+             "footer";
     }
     
     body{
@@ -473,195 +346,77 @@ blockquote:before, blockquote:after, q:before, q:after {
     
 }
     
-#link1 {
-    grid-area: link1;
-    
-   
-}
-
-#link2 {
-    grid-area: link2;
-    
-}
-
-#link3 {
-    grid-area: link3;
-    
-}
-
-#link4 {
-    grid-area: link4;
-   
-}
-
-#link5{
-    grid-area: link5;
-    
-}
-
-#link6 {
-    grid-area: link6;
-}
-
-#link7 {
-    grid-area: link7;
-    
-}
-
-#link8 {
-    grid-area: link8;
-   
-}
-
-#link9 {
-    grid-area: link9;
-}
-
-#link10 {
-    grid-area: link10;
-}
-
-#link11 {
-    grid-area: link11;
-}
-
-#link12{
-    grid-area: link12;
-}
-
-#link13 {
-    grid-area: link13;
-}
-
-#Kortom {
+#kortom {
     grid-area: kortom;
         position: relative;
     text-align: center;
-    color: black;
-    
+    color: black;  
 }
 
-#Ombrackets {
+#ombrackets {
     grid-area: ombrackets;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#HTMLiBrackets {
+#htmlibrackets{
     grid-area: htmlibrackets;
     position: relative;
     text-align: center;
     color: black;
 }
     
-#headhtml {
-    grid-area: head;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-}
-
-#Elementeri {
-    grid-area: elementer;
+#elementeri{
+    grid-area: elementeir;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#elementer {
-    grid-area: elementer1;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-   
-}
-
-#Headings1 {
+#headings{
     grid-area: headings;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#headingsimg {
-    grid-area: headingsimg;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-}
-
-#Semantisketags1 {
-    grid-area: semantisketags;
+#semantisk{
+    grid-area: semantisk;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#semantisketags {
-    grid-area: semantisketags1;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-}
-
-#Indhold {
+#indhold{
     grid-area: indhold;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#Sektioner {
+#sektioner{
     grid-area: sektioner;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#indholdimg {
-    grid-area: indhold1;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-}
-
-#Paragraph1 {
+#paragraph{
     grid-area: paragraph;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#paragraphs {
-    grid-area: paragraphs;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-}
-
-#Lister1 {
+#lister{
     grid-area: lister;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#liste {
-    grid-area: liste;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-}
-
-#Hyper1 {
+#hyper{
     grid-area: hyper;
     position: relative;
     text-align: center;
@@ -669,60 +424,28 @@ blockquote:before, blockquote:after, q:before, q:after {
     
 }
 
-#link {
-    grid-area: link;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-}
-
-#Attribut1 {
+#attribut{
     grid-area: attribut;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#attribut {
-    grid-area: attribut1;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-}
-
-#Billeder1 {
+#billeder{
     grid-area: billeder;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#billede {
-    grid-area: billede;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-}
-
-#Kommentarer1 {
+#kommentarer{
     grid-area: kommentarer;
     position: relative;
     text-align: center;
     color: black;
 }
 
-#kommentar {
-    grid-area: kommentar;
-    display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-}
-
-#Validering1 {
+#validering{
     grid-area: validering;
     position: relative;
     text-align: center;

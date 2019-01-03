@@ -1,0 +1,231 @@
+ #pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+            "naerhed"
+             "kontinuitet"
+             "lighed"
+             "mere"
+             "footer";
+    }
+  
+#pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+    
+header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: navy;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+    
+ #kortom {
+    grid-area: kortom;
+    justify-content: center;
+    text-align: center;
+     background-color: sandybrown;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+   
+}
+
+#naerhed{
+    grid-area: naerhed;
+    
+}
+
+#kontinuitet{
+    grid-area: kontinuitet;
+}
+
+#lighed{
+    grid-area: lighed;
+}
+
+#mere{
+    grid-area: mere;
+}
+
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;   
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+}
+
+    
+
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+            "naerhed"
+             "kontinuitet"
+             "lighed"
+             "mere"
+             "footer";
+    }
+
+    
+    body {
+        background-color: royalblue;
+    }
+    
+    #kortom{
+        background-color: blue;
+    } 
+    
+    #ocean{
+        height: 200px;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px){
+#pagewrap {
+         display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+            "naerhed"
+             "kontinuitet"
+             "lighed"
+             "mere"
+             "footer";
+    }
+
+    body {
+        background-color: cadetblue;
+    }
+    
+    #kortom{
+        grid-area: kortom;
+        position: relative;
+        text-align: center;
+        background-color: teal;
+    }
+
+    
+     #naerhed{
+    grid-area: naerhed;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    #kontinuitet{
+    grid-area: kontinuitet;
+    position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+     #lighed{
+    grid-area: lighed;
+    position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+     #mere{
+    grid-area: mere;
+    position: relative;
+    text-align: center;
+        color: black;
+    } 
+    
+}

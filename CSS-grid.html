@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <title>Webudvikling</title>
+        <link rel="stylesheet" href="cssgrid.css">
+    </head> 
+    
+    <body> 
+    <div id="Pagewrap">
+        <header> <img id="sunset" src="sunset.jpg"> </header>
+        
+       <nav id="navigation">
+            <ul id="menu">    
+               <li id="menu1">
+                    <a href="index.html"> Forside </a>   
+                </li>
+                
+                
+              <li id="menu2">
+                 <a href="Webdesign.html">  Webdesign </a>   </li> 
+                
+                <li id="menu3"> 
+                   <a href="design.html">  Design </a>    </li>
+                
+                <li id="menu4">
+                    <a href="Kommunikation.html">  Kommunikation </a>    </li>
+                    
+                    
+                <li id="menu5">  <a href="Design%20Thinking.html">  Design Thinking </a>  </li>
+                
+                <li id="menu6">
+                   <a href="HTML%20og%20CSS%20Workshop.html">  HTML og CSS Workshop </a> 
+                    </li>
+                
+                <li id="menu7"> 
+                     <a href="One%20Page%20Project.html">  One Page Project </a> 
+                    </li>
+                
+                <li id="menu8"> 
+                <a href="L%C3%A6ringsportfolio.html">  Læringsportfolio </a> 
+                
+                
+                </ul>
+        
+        </nav>           
+ 
+ <section id="kortom">
+        <h1 id="op">CSS grid </h1>
+     <p> CSS Grid er det nyeste indenfor CSS-standarden og siges at være det vildeste/største siden responsivt webdesign kom frem.  Den er endnu ikke fuldt støttet i alle browsere, men der arbejdes på, at den snart skal kunne fungere i alle browsere. </p>
+      <p>Kilde til siden:<a href=file:///C:/Users/Christina/Downloads/Grids%20(3).pdf > CSS-grid pdf</a> </p>
+     </section>
+     
+        <section class="links"> 
+            
+           <a id="link1" href="#be">Bedre CSS</a>
+             <a id="link2" href="#fl">Flexbox</a>
+             <a id="link3" href="#gr">Grid</a>
+             <a id="link4" href="#co">Columns, rows og fractions</a>
+             <a id="link5" href="#ht">HTML elementer i griddet</a>
+             <a id="link6" href="#for">Forskellige øvelser</a>
+               </section> 
+        
+     <section id="bedre">
+         <h1 id="be"> Bedre CSS</h1>
+            <p> Før i tiden var det meget svært at placere elementer ordentligt i CSS. Der har været alt for mange fejl i f.eks. float. Et andet problem har været, at CSS Flexbox egentligt kun var lavet til at fungere i én retning så det komplicerede tingene lidt. Så kom det nye CSS Grid, og det har gjort det meget nemmere f.eks. at placere elementer i CSS. </p>
+           </section>
+     
+     <section id="flex">
+            <h1 id="fl">Flexbox</h1>
+             <p>CSS grids er bygget mest på idéen fra flex, men i modsætning til flex blev css grid bygget til at kunne klare to retninger. Når man før arbejdede med flex kunne det godt være svært at bruge flex i designet, da det gik meget ud på om elemnterne var samme størrelse. Hvis de ikke var det, kunne det være meget svært at placere dem. CSS grid tænker ikke så meget på forskellige størrelser, men mere på selve layoutet.</p>
+           <p><a id="linkop" href="#op">Op til links</a></p>
+            <img id="flexboxgrid" src="flexboxgrid.png"> 
+           </section>
+    
+            
+            <section id="grid"> 
+            <h1 id="gr"> Grid</h1>
+               <p>Grid kan beskrives som en tabel, da grid indeholder kolonner og rækker på samme måde. Jeg kan bestemme hvor mange rækker og kolonner og jeg kan selv bestemme hvor stor hver enkelt ”kasse” i tabellen skal være. </p>
+                <p> Hvis jeg vil bruge grid i mit CSS skal jeg vise CSS at jeg vil bruge grid. Det gøres ved at jeg i HTML-filen laver en div med id’et ”pagewrap” som det første inde i min body (diven skal afsluttes som det sidste før body afsluttes) . Derefter skriver jeg i min CSS-fil, at pagewrap er et grid. Det gøres ved at skrive #pagewrap { display:grid;} Når jeg har gjort det skal jeg i CSS’en under display:grid; skrive, hvor mange kolonner jeg vil have og hvor mange rækker jeg skal have. Jeg kan også bestemme hvor lange kolonnerne skal være og hvor høje rækkerne skal være. </p>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+                </section>
+            
+            <section id="column"> 
+                <h1 id="co"> Columns, rows og fractions</h1>
+            <p>For at lave en kolonne i mit grid skal jeg skrive grid-column-template. Når jeg har skrevet det kan jeg bestemme hvor mange kolonner der skal være og hvor meget de skal fylde.  </p>
+                <p> Hvis jeg f.eks. vil have tre kolonner der hver skal fylde en del af gridded, skal jeg bruge fractions/dele (fr) så derfor skriver jeg efter grid-template-column: 1fr 1fr 1fr; Jeg kan også bestemme at mit grid f.eks. igen skal have tre kolonner, men denne gang skal den første kolonne fylde mere end de andre, så skal jeg i stedet for 1fr 1fr 1fr; skrive f.eks. 2fr 1fr 1fr. Med denne metode bestemmer jeg hvor brede hver del af mit grid skal være.
+                </p>
+                <p>Jeg kan også bestemme hvor høje  grid bestemme hvor mange rækker der skal være. For at fortælle CSS at jeg nu vil arbejde med rækker i gridded, skriver jeg grid-template-rows. Når det er gjort, skal jeg fortælle hvor mange rækker der er og hvor meget de skal fylde. </p>
+                <p>Hvis jeg f.eks. vil have 4 rækker skriver jeg: grid-template-rows: 1fr 1fr 1fr 1fr; og jeg kan her på samme måde som ved kolonnerne bestemme, hvor meget de skal fylde. Men denne metode bestemmer jeg hvor høj hver en del af mit grid skal være.  </p>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+                <img id="grids" src="basic-setup-600x337.png"> 
+                </section>
+       
+        <section id="elementer"> 
+            <h1 id="ht"> HTML elementer i griddet </h1>
+            <p>For at inkorporere elementerne i griddet skal jeg i CSS filen under elementets navn (id/class) angive at den skal være en del af griddet. Det gør jeg ved at skrive: grid-area: navn;</p>  
+            <p> Et element kan godt spænde over flere kolonner, det angives ved at man skal skrive hvor den skal starte og slutte f.eks.: grid-column start:1;  grid-column-end:4; men man kan også bare fortælle hvor mange kolonner elementet skal spænde over ved at skrive: grid-column-end: span2;</p>
+            <p>For at tilføje elementerne til griddet skal der i selve grid-templaten (i mit tilfælde pagewrap) skrives grid-template-areas. I den skrives alle navnene på de elementer der skal være med. Der er en linje pr række og i hver linje skrives elementets navn pr. kolonne. Hvis man skriver det samme navne i flere kolonner gentages det.</p>
+            <p>Hvis jeg har lyst, kan jeg også vælge at lade et felt være tomt. Det gør jeg ved i stedet for at skrive et navn, skriver et punktum. For at lave mellemrum i mellem kolonnerne kan jeg lave et grid-gap. </p>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+                <img id="elementerigrid" src="elementerigrid.JPG">
+            </section>
+            
+            <section id="forskel"> 
+            <h1 id="for"> Forskellige øvelser</h1>
+            <p>Da jeg lærte hvordan man brugte CSS grid, fik nogle forskellige opgaver vi skulle løse. Vi skulle pr've at placere dele af griddet forskellige steder i griddet og med forskellige størrelser. Nedenunder, er der et udvalg af de opgaver med selve opgaven og noget af html samt CSS filerne med svaret. </p>
+            <p><a id="linkop" href="#op">Op til links</a></p>
+                </section>
+        
+        <section id="oevelsenret">
+            <p> Øvelse 1</p>
+        <img id="oevelseet" src="oevelse1.jpg">
+        <img id="oevelseetsvar" src="oevelse1svar.jpg">
+            </section>
+        
+        <section id="oevelsenrto">
+            <p> Øvelsen 2</p>
+        <img id="oevelseto" src="oevelse2.jpg">
+        <img id="oevelsetosvar" src="oevelse2svar.jpg">
+        </section>
+        
+        <section id="oevelsenrfire"> 
+            <p> Øvelse 4 </p>
+        <img id="oevelsefire" src="oevelse4.jpg">
+        <img id="oevelsefiresvaret" src="oevelse4svar1.jpg">
+        <img id="oevelsefiresvarto" src="oevelse4svar2.jpg">
+        </section>
+        
+       
+        <footer> 
+            
+        <img id="ocean" src="ocean.jpg">
+            <div class="centered">
+                 <h2>Info </h2>
+                 <p> Christina Fodgaard </p>
+                 <p> Multimediedesigner</p>
+                 <p>Eksamen 1. semester </p>
+                 <p>&copy;Christina Fodgaard </p>
+             
+            </div>
+        </footer>
+               </div>
+    </body>

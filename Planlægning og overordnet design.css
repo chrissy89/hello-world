@@ -1,0 +1,403 @@
+ #pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+            "link2" 
+            "link3"
+            "link4"
+            "link5" 
+            "link6"
+            "link7"
+            "gruppearbejdet"
+            "user"
+            "userbilleder"
+            "feature"
+            "wireframe"
+            "wireframebilleder"
+            "mockup"
+            "balsamiqbilleder"
+            "info"
+            "infobilleder"
+            "proto"
+            "footer";
+    }
+  
+#pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+    
+header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: navy;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+    
+ #kortom {
+    grid-area: kortom;
+    justify-content: center;
+    text-align: center;
+     background-color: sandybrown;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+   
+}
+
+#link5{
+    grid-area: link5;
+    
+}
+
+#link6 {
+    grid-area: link6;
+}
+
+#link7 {
+    grid-area: link7;
+    
+}
+
+#gruppearbejdet{
+    grid-area: gruppearbejdet;
+    
+}
+
+#user{
+    grid-area: user;
+}
+
+#userbilleder{
+    grid-area: userbilleder;
+}
+
+#feature{
+    grid-area: feature;
+    
+}
+
+#wireframe{
+    grid-area: wireframe;
+}
+
+#wireframebilleder{
+    grid-area: wireframebilleder;
+}
+
+#mockup{
+    grid-area: mockup;
+}
+
+#balsamiqbilleder{
+    grid-area: balsamiqbilleder;
+}
+
+#info{
+    grid-area: info;
+}
+
+#infobilleder{
+    grid-area: infobilleder;
+}
+
+#proto{
+    grid-area: proto;
+}
+
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;   
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+}
+
+
+/*tablet*/
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+             "header"
+            "navigation"
+            "kortom"
+            "link1" 
+            "link2" 
+            "link3"
+            "link4"
+            "link5" 
+            "link6"
+            "link7"
+            "gruppearbejdet"
+            "user"
+            "userbilleder"
+            "feature"
+            "wireframe"
+            "wireframebilleder"
+            "mockup"
+            "balsamiqbilleder"
+            "info"
+            "infobilleder"
+            "proto"
+            "footer";
+    }
+
+    
+    body {
+        background-color: royalblue;}
+    
+ #kortom{
+        background-color: blue;
+    }    
+    
+   #ocean {
+    height: 200px; 
+} 
+ 
+    
+}
+
+@media screen and (min-width:1200px){
+    #pagewrap{
+    display: grid;
+         grid-gap: 0em;
+        width: auto;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+            "link2" 
+            "link3"
+            "link4"
+            "link5" 
+            "link6"
+            "link7"
+            "gruppearbejdet"
+            "user"
+            "userbilleder"
+            "feature"
+            "wireframe"
+            "wireframebilleder"
+            "mockup"
+            "balsamiqbilleder"
+            "info"
+            "infobilleder"
+            "proto"
+            "footer";
+    }
+    
+   
+    body{
+        background-color: cadetblue;
+    }
+    
+    #pagewrap {
+        width: 100%;
+    }
+   
+    header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: navy;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+  
+ #kortom {
+    grid-area: kortom;
+    position: relative;
+    text-align: center;
+    color: black;
+     background-color: teal;  
+}
+    
+#gruppearbejdet{
+  grid-area: gruppearbejdet; 
+    position: relative;
+    text-align: center;
+    color: black;
+    
+}
+
+#user{
+  grid-area: user; 
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#userbilleder{
+    grid-area: userbilleder;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#feature{
+     grid-area: feature;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+
+#wireframe{
+  grid-area: wireframe;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#wireframebilleder{
+    grid-area: wireframebilleder;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#mockup{
+     grid-area: mockup;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#balsamiqbilleder{
+    grid-area: balsamiqbilleder;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#info{
+    grid-area: info;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+#infobilleder{
+     grid-area: infobilleder;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+    
+#proto{
+     grid-area: proto;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+    
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    
+    }

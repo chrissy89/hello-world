@@ -1,0 +1,329 @@
+ #pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5" 
+             "link6"
+             "link7"
+             "link8"
+             "historie"
+             "cssihtml"
+             "forskellige"
+             "kaskaderegler"
+             "kasserihtml"
+             "farver"
+             "tekst"
+             "position"
+             "footer";
+    }
+  
+#pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+    
+header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: navy;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+    
+ #kortom {
+    grid-area: kortom;
+    justify-content: center;
+    text-align: center;
+     background-color: sandybrown;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+   
+}
+
+#link5{
+    grid-area: link5;
+    
+}
+
+#link6 {
+    grid-area: link6;
+}
+
+#link7 {
+    grid-area: link7;
+}
+
+#link8 {
+    grid-area: link8;
+}
+
+#historie{
+    grid-area: historie;
+    
+}
+
+#cssihtml{
+    grid-area: cssihtml;
+}
+
+#forskellige{
+    grid-area: forskellige;
+}
+
+#kaskaderegler{
+    grid-area: kaskaderegler;
+}
+
+#kasserihtml{
+    grid-area: kasserihtml;
+}
+
+#farver{
+    grid-area: farver;
+}
+
+#tekst{
+    grid-area: tekst;
+}
+
+#position{
+    grid-area: position;
+}
+
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;   
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+
+}
+
+/*tablet*/
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5" 
+             "link6"
+             "link7"
+             "link8"
+             "historie"
+             "cssihtml"
+             "forskellige"
+             "kaskaderegler"
+             "kasserihtml"
+             "farver"
+             "tekst"
+             "position"
+             "footer";
+    }
+
+    
+    body {
+        background-color: royalblue;}
+    
+    #kortom{
+        background-color: blue;
+    }
+    
+    #kasse{
+        width: auto;
+    }
+    
+   #ocean {
+    height: 200px; 
+} 
+ 
+    
+}
+
+@media screen and (min-width:1000px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5" 
+             "link6"
+             "link7"
+             "link8"
+             "historie"
+             "cssihtml"
+             "forskellige"
+             "kaskaderegler"
+             "kasserihtml"
+             "farver"
+             "tekst"
+             "position"
+             "footer";
+    }
+    
+    #kortom {
+    grid-area: kortom;
+    position: relative;
+    text-align: center;
+    color: black;
+     background-color: teal;
+    
+}
+    h1 {
+       position: relative;
+    text-align: center;
+    color: black; 
+    }
+    
+    
+    body{
+        background-color: cadetblue;
+    }
+    
+#historie{
+    grid-area: historie;
+     position: relative;
+    text-align: center;
+    color: black;
+    
+}
+
+#cssihtml{
+    grid-area: cssihtml;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+#forskellige{
+    grid-area: forskellige;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+    
+#kaskaderegler{
+    grid-area: kaskaderegler;
+    position: relative;
+     text-align: center;
+}
+
+#kasserihtml{
+    grid-area: kasserihtml;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+
+#farver{
+        grid-area: farver;
+        position: relative;
+        text-align: center;
+        color: black;
+}
+    
+#tekst{
+        grid-area: tekst;
+        position: relative;
+        text-align: center;
+        color: black;
+}
+    
+#position{
+        grid-area: position;
+        position: relative;
+        text-align: center;
+        color: black;
+}
+    
+    
+    }

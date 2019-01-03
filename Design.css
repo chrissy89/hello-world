@@ -1,0 +1,206 @@
+/*mobile */
+
+    #pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "a"
+            "b"
+            "c"
+            "d" 
+             "e" 
+             "f"
+            "g"
+             "h" 
+             "i"
+            ;
+    }
+    
+    
+header  {
+    grid-area: a;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    background-color: black;
+    grid-area: b;
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+    
+ #Kortom {
+    grid-area: c;
+    justify-content: center;
+    text-align: center;
+     background-color: sandybrown;
+     margin-bottom: 30px;
+    
+}
+    
+#billede1 {
+    grid-area: d;
+    
+   
+}
+
+#billede2 {
+    grid-area: e;
+    
+}
+
+#billede3 {
+    grid-area: f;
+    
+}
+
+#billede4 {
+    grid-area: g;
+   
+}
+
+#billede5{
+    grid-area: h;
+    
+}
+    
+footer {
+    grid-area: i;
+    position: relative;
+    text-align: center;
+    color: black;
+    
+    
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+  
+   
+
+    
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+
+}
+
+
+ #pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+
+
+
+
+/*tablet*/
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr 1fr;
+         grid-template-areas: 
+            "a a"
+            "b b"
+            "c c"
+            "d e"
+            "f g"
+            "h h"
+            "i i"
+           ;
+    }
+
+    
+    body {
+        background-color: royalblue;
+    }
+    
+    #Kortom{
+        background-color: blue;
+    }
+
+    
+
+
+    #ocean {
+        height: 200px; 
+    }
+   
+   
+    
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+#pagewrap {
+         display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-areas: 
+            "a a a"
+            "b b b"
+            "c c c"
+            "d e f"
+            "g h ."
+            "i i i";
+    }
+
+    body {
+        background-color: cadetblue;
+    }
+    
+    #Kortom{
+        background-color: teal;
+    }
+
+    #ocean{
+        height: 200px;
+    }
+}
+
+
+
+
+

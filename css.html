@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <title>CSS</title>
+        <link rel="stylesheet" href="css.css">
+    </head> 
+    
+    <body> 
+    <div id="Pagewrap">
+        <header> <img id="sunset" src="sunset.jpg"> </header>
+        
+       <nav id="navigation">
+            <ul id="menu">    
+               <li id="menu1">
+                    <a href="index.html"> Forside </a>   
+                </li>
+                
+                
+              <li id="menu2">
+                 <a href="Webdesign.html">  Webdesign </a>   </li> 
+                
+                <li id="menu3"> 
+                   <a href="design.html">  Design </a>    </li>
+                
+                <li id="menu4">
+                    <a href="Kommunikation.html">  Kommunikation </a>    </li>
+                    
+                    
+                <li id="menu5">  <a href="Design%20Thinking.html">  Design Thinking </a>  </li>
+                
+                <li id="menu6">
+                   <a href="HTML%20og%20CSS%20Workshop.html">  HTML og CSS Workshop </a> 
+                    </li>
+                
+                <li id="menu7"> 
+                     <a href="One%20Page%20Project.html">  One Page Project </a> 
+                    </li>
+                
+                <li id="menu8"> 
+                <a href="L%C3%A6ringsportfolio.html">  Læringsportfolio </a> 
+                
+                
+                </ul>
+        
+        </nav>           
+ 
+ <section id="kortom">
+        <h1 id="op">Kort om CSS </h1>
+     <p> CSS er en type kode som bruges til at designe en HTML-fil så hjemmesiden ser lækker ud. CSS står for Cascading Style Sheets og er en måde at adskille strukturen og udseendet.</p>
+     <p>Kilde til siden:<a href="file:///C:/Users/Christina/Downloads/intro%20til%20css%20(2).pdf"> CSS pdf</a> </p>
+     </section>
+     
+        <section class="links"> 
+            
+           <a id="link1" href="#hi">Historien om CSS</a>
+             <a id="link2" href="#cih">CSS i HTML</a>
+             <a id="link3" href="#dfs">De forskellige selectors</a>
+             <a id="link4" href="#ka">Kaskaderegler</a>
+             <a id="link5" href="#kai">Kasser i HTML</a>
+             <a id="link6" href="#fa">Farver</a>
+             <a id="link7" href="#aen">Ændringer i tekster</a>
+             <a id="link8" href="#po">Position af HTML elementer</a>
+               </section> 
+        
+     <section id="historie">
+         <h1 id="hi"> Historien om CSS</h1>
+            <p> Den første udgave af CSS blev udviklet af Håkon Wium Lie som arbejde i CERN, men den blev overtaget af w3c som overtog standardiseringsarbejdet. Den første reele browser der understøttede det var IE3, deefter overtog netscape 4,0 men der var en masse fejl.</p>
+         <p> CSS er kun blevet bedre siden den første version og den understøttes nu af alle store browseres standarder. </p>
+           </section>
+     
+     <section id="cssihtml">
+            <h1 id="cih">CSS i HTML </h1>
+             <p> Når jeg vil bruge CSS til at designe min HTML-fil kan jeg vælge at have en intern stylesheet eller et i et eksternt dokument.</p>
+         <p>For at kunne designe min HTML skal jeg bruge de elementer/tags jeg har skrevet i HTML som f.eks. body, h1 og sektion. Hvis jeg vil ændre flere elementer på én gang kan jeg bruge bestemte selectors som f.eks. class og hvis jeg kun vil ændre ét element kan jeg bruge id-selectoren.</p>
+         <p> For at kunne bruge min CSS skal jeg kode på en bestemt måde som består af en række deklerations (se billede).</p>
+           <p><a id="linkop" href="#op">Op til links</a></p>
+        <img id="deklerationer" src="deklerationer.jpg">
+         </section> 
+            
+            <section id="forskellige"> 
+            <h1 id="dfs"> De forskellige selectors</h1>
+               <p>Der er mange forskellige selectors at vælge imellem, men jeg har valgt kun at nævne de tre vigstigste selcetors her. Hvis jeg vil vide mere, kan jeg tjekke punktet: "HTML og CSS-workshop". </p> 
+                <p>De tre vigtigste selectors er:
+                <li>Element selector </li>
+                <li>id selector </li>
+                    <li>class-selector </li></p>
+                  <p> Hvis jeg vil skrive en element selctor i CSS skal jeg f.eks. skrive h1{design}.</p>  
+                <p>Hvis jeg skal skrive en id-selctor i css skal jeg altid skrive # foran navnet på den bestemte id f.eks.: #id eller #andetnavn{design} </p>
+                <p> Hvis jeg skal skrive en class skal jeg have punktom foran navnet f.eks. .class{design} eller .navn{design}.</p>
+                <p>Der findes også nogle pseudo-class selectors som f.eks. "first child". (HTML-og CSS workshop)</p>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+        <img id="selectorscss" src="selectorscss.png"> 
+                 </section>
+        
+            
+            <section id="kaskaderegler"> 
+            <h1 id="ka"> Kaskaderegler</h1>
+            <p>I CSS finders der nogle kaskaderegler der bestemmer hvilken kodning der gælder.</p>
+                <p>Hvis jeg f.eks. skriver, at h1 skal baggrundsfarven blå, men senere hen skriver at baggrunden skal være grøn, er det den sidste kodning der gælder, det hedder "source order" </p>
+                <p>Hvis jeg skal skrive meget specifikt hvordan h1 ser ud, er den specifikke kodning der gælder, det kaldes "specificity". Den overwriter også source order.  </p>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+        <img id="rules" src="know-the-rules%20smaller.jpg"> 
+         </section>
+                
+            <section id="kasserihtml"> 
+                <h1 id="kai"> Kasser i HTML</h1>
+            <p>Hvis jeg vil have kasser i HTML, der repræsentere HTML-elemter findes to typer:
+                <li>inline, som gør at HTML-elementerne placeres horisontalt efter hinanden.</li>
+                <li>block, som placere elementerne efter hinanden i stakker. </li></p>
+                <p>De styres med CSS-properties, display og block samt inline </p>
+                <p>Du kan også vælge forskellige egenskaber til dine kasser. </p>
+                <p>Kasserne kan laves med padding, som er afstand imellem indholdet og rammen. Ramme/border, som kan være synlige eller usynlige og margen, som er afstand imellem rammen og de andre elementer. </p>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+        <img id="kasse" src="css-box-model.png"> 
+                  </section>
+       
+       
+            
+            <section id="farver"> 
+            <h1 id="fa"> Farver </h1>
+            <p>Jeg kan ændre farver på mine HTML-elementer ved at skrive elementets navn og en farvekode.</p>
+                <p>Der findes flere forskellige farvekoder men dem jeg bruger er er enten RGB som skrives rgb(255,204,0) og hex kodensom skrives #ffcc00.</p>
+                <p>Jeg kan også ændre på elementets gennemsigtighed med opacity. </p>
+                  <p><a id="linkop" href="#op">Op til links</a></p>
+        <img id="farvergb" src="rgb-color-model%20small.jpg">
+                </section>
+
+    
+            
+            <section id="tekst"> 
+            <h1 id="aen"> Ændring af tekst</h1>
+            <p>Ikke nok med, at jeg kan ændre farve og opacitet kan jeg også ændre på skrifttypen.</p> <p>Siden det ikke altid er så sjovt kun at bruge font-typer der allerede er installeret på min computer, er det muligt at downloade en masse font-typer på <a href=https://fonts.google.com>Google font.</a>  Det er bare vigtigt at huske, at tjekke om den bestemte font indeholder æ,ø og å, da det ikke altid er tilfældet.</p>
+            <p><a id="linkop" href="#op">Op til links</a></p>
+        <img id="fonts" src="fontssmaller.jpg">
+                </section>
+        
+        
+            
+            <section id="position"> 
+                <h1 id="po"> Position af HTML-elementer</h1>
+            <p>Hvis jeg vil have nogle bestemte HTML-dokumenter placeret bestemte steder, kan jeg bruge forskellige positioneringer. </p>
+                <p>Der er f.eks. 'flow", der gør at elementet flyder fra toppen og ned, og "relative", som er et forskudt flow.  </p>
+                <p> Hvis jeg vælger "absolute" vil elementerne ikke flyde på siden, men følge med når jeg scroller op og ned.</p>
+                <p> For at fastgøre et element bruges "fixed", som gør at elementet ikke flytter med ved scroll og sidst men ike mindst er der "float", som gør, at elementet "flyder" i det overordnede element og hvilken side elemntet skal flyde i. Den bruges ofte til at placere billeder i tekst og til ar placere elementer ved siden af hinanden</p>
+                <p>Hvis jeg vil ophæve float, kan jeg bruge "clear" som kan være både højre, venstre, begger eller ingen, og kan afgrænse hvilke sider der må røre andre elementer. </p>
+                 <p><a id="linkop" href="#op">Op til links</a></p>
+         <img id="positionhtml" src="positions.png">
+                </section>
+       
+        <footer> 
+            
+        <img id="ocean" src="ocean.jpg">
+            <div class="centered">
+                 <h2>Info </h2>
+                 <p> Christina Fodgaard </p>
+                 <p> Multimediedesigner</p>
+                 <p>Eksamen 1. semester </p>
+                 <p>&copy;Christina Fodgaard </p>
+             
+            </div>
+        </footer>
+               </div>
+    </body>

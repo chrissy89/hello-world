@@ -1,0 +1,409 @@
+ #pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5"
+             "link6"
+             "link7"
+             "link8"
+             "link9"
+             "link10"
+             "link11"
+             "link12"
+             "virker"
+             "kameratyper"
+             "lukker"
+             "blaende"
+             "dybde"
+             "iso"
+             "objekt"
+             "indstilling"
+             "kelvin"
+             "lys"
+             "lysbilleder"
+             "egne"
+             "footer";
+    }
+  
+#pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;
+}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+    
+header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: navy;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+    
+ #kortom {
+    grid-area: kortom;
+    justify-content: center;
+    text-align: center;
+     background-color: sandybrown;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+   
+}
+
+#link5{
+    grid-area: link5;
+}
+
+#link6{
+    grid-area: link6;
+}
+
+#link7{
+    grid-area: link7;
+}
+
+#link8{
+    grid-area: link8;
+}
+
+#link9{
+    grid-area: link9;
+}
+
+#link10{
+    grid-area: link10;
+}
+
+#link11{
+    grid-area: link11;
+}
+
+#link12{
+    grid-area: link12;
+}
+
+#virker{
+    grid-area: virker; 
+}
+
+#kameratyper{
+    grid-area: kameratyper;
+}
+
+#lukker{
+    grid-area: lukker;
+}
+
+#blaende{
+    grid-area: blaende;
+}
+
+#dybde{
+    grid-area: dybde;
+}
+
+#iso{
+    grid-area: iso;
+}
+
+#objekt{
+    grid-area: objekt;
+}
+
+#indstilling{
+    grid-area: indstilling;
+}
+
+#kelvin{
+    grid-area: kelvin;
+}
+
+#lys{
+    grid-area: lys;
+}
+
+#lysbilleder{
+    grid-area: lysbilleder;
+}
+
+#egne{
+    grid-area: egne;
+}
+
+#andrebilleder{
+    grid-area: andrebilleder;
+}
+
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;   
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+}
+
+    
+
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+         "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5"
+             "link6"
+             "link7"
+             "link8"
+             "link9"
+             "link10"
+             "link11"
+             "link12"
+             "virker"
+             "kameratyper"
+             "lukker"
+             "blaende"
+             "dybde"
+             "iso"
+             "objekt"
+             "indstilling"
+             "kelvin"
+             "lys"
+             "lysbilleder"
+             "egne"
+             "footer";
+    }
+
+    
+    body {
+        background-color: royalblue;
+    }
+    
+    #kortom{
+        background-color: blue;
+    } 
+    
+    #ocean{
+        height: 200px;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px){
+#pagewrap {
+         display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+             "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5"
+             "link6"
+             "link7"
+             "link8"
+             "link9"
+             "link10"
+             "link11"
+             "link12"
+             "virker"
+             "kameratyper"
+             "lukker"
+             "blaende"
+             "dybde"
+             "iso"
+             "objekt"
+             "indstilling"
+             "kelvin"
+             "lys"
+             "lysbilleder"
+             "egne"
+             "footer";
+    }
+
+    body {
+        background-color: cadetblue;
+    }
+    
+    #kortom{
+        grid-area: kortom;
+        position: relative;
+        text-align: center;
+        background-color: teal;
+    }
+
+    
+     #virker{
+    grid-area: virker;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    #kameratyper{
+    grid-area: kameratyper;
+    position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+    #lukker{
+        grid-area: lukker;
+        position: relative;
+        text-align: center;
+        color: black;
+    }
+    
+     #blaende{
+    grid-area: blaende;
+    position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+     #dybde{
+    grid-area: dybde;
+    position: relative;
+    text-align: center;
+        color: black;
+    } 
+    
+      #iso{
+    grid-area: iso;
+    position: relative;
+    text-align: center;
+        color: black;
+    } 
+    
+      #objekt{
+    grid-area: objekt;
+    position: relative;
+    text-align: center;
+        color: black;
+    } 
+    
+        #indstilling{
+    grid-area: indstilling;
+    position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+        #kelvin{
+    grid-area: kelvin;
+    position: relative;
+    text-align: center;
+        color: black;
+    } 
+    
+         #lys{
+    grid-area: lys;
+    position: relative;
+    text-align: center;
+        color: black;
+    } 
+    
+        #lysbilleder{
+    grid-area: lysbilleder;
+    position: relative;
+    text-align: center;
+        color: black;
+    } 
+    
+         #egne{
+    grid-area: egne;
+    position: relative;
+    text-align: center;
+        color: black;
+    } 
+    
+        #andrebilleder{
+    grid-area: andrebilleder;
+    position: relative;
+    text-align: center;
+        color: black;
+    } 
+}

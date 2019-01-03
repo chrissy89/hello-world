@@ -1,0 +1,400 @@
+ #pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5"
+             "link6"
+             "link7"
+             "link8"
+            "farver"
+             "farverbilleder"
+             "goethe"
+             "goethebilleder"
+             "blaa"
+             "farvebetyd"
+             "design"
+             "farvepics"
+             "forskelfarver"
+             "dimensions"
+             "colour"
+             "farvertiden"
+             "typo"
+             "typobilleder"
+             "footer";
+    }
+  
+#pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+    
+header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: navy;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+    
+ #kortom {
+    grid-area: kortom;
+    justify-content: center;
+    text-align: center;
+     background-color: sandybrown;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+   
+}
+
+#link5{
+    grid-area: link5;
+}
+
+#link6{
+    grid-area: link6;
+}
+
+#link7{
+    grid-area: link7;
+}
+
+#link8{
+    grid-area: link8;
+}
+
+#farver{
+    grid-area: naerhed;
+    
+}
+
+#farverbilleder{
+    grid-area: farverbilleder;
+}
+
+#goethe{
+    grid-area: goethe;
+}
+
+#goethebilleder{
+    grid-area: goethebilleder;
+}
+
+#blaa{
+    grid-area: blaa;
+}
+
+#farvebetyd{
+    grid-area: farvebetyd;
+}
+
+#design{
+    grid-area: design;
+}
+
+#farvepics{
+    grid-area: farvepics;
+}
+
+#forskelfarver{
+    grid-area: forskelfarver;
+}
+
+#dimensions{
+    grid-area: dimensions;
+}
+
+#colour{
+    grid-area: colour;
+}
+
+#farvertiden{
+    grid-area: farvertiden;
+}
+
+#typo{
+    grid-area: typo;
+}
+
+#typobilleder{
+    grid-area: typobilleder;
+}
+
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;   
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+}
+
+    
+
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+             "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5"
+             "link6"
+             "link7"
+             "link8"
+            "farver"
+             "farverbilleder"
+             "goethe"
+             "goethebilleder"
+             "blaa"
+             "farvebetyd"
+             "design"
+             "farvepics"
+             "forskelfarver"
+             "dimensions"
+             "colour"
+             "farvertiden"
+             "typo"
+             "typobilleder"
+             "footer";
+    }
+
+    
+    body {
+        background-color: royalblue;
+    }
+    
+    #kortom{
+        background-color: blue;
+    } 
+    
+    #ocean{
+        height: 200px;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px){
+#pagewrap {
+         display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5"
+             "link6"
+             "link7"
+             "link8"
+            "farver"
+             "farverbilleder"
+             "goethe"
+             "goethebilleder"
+             "blaa"
+             "farvebetyd"
+             "design"
+             "farvepics"
+             "forskelfarver"
+             "dimensions"
+             "colour"
+             "farvertiden"
+             "typo"
+             "typobilleder"
+             "footer";
+    }
+
+    body {
+        background-color: cadetblue;
+    }
+    
+    #kortom{
+        grid-area: kortom;
+        position: relative;
+        text-align: center;
+        background-color: teal;
+    }
+
+    
+     #farver{
+    grid-area:farver ;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+     #farverbilleder{
+    grid-area: farverbilleder;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+   
+     #goethe{
+    grid-area: goethe;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+         #goethebilleder{
+    grid-area: goethebilleder;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+         #blaa{
+    grid-area: blaa;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+         #farvebetyd{
+    grid-area: farvebetyd;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+         #design{
+    grid-area: design;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+         #farvepics{
+    grid-area: farvepics;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+         #forskelfarver{
+    grid-area: forskelfarver;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+         #dimensions{
+    grid-area: dimensions;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+ 
+            #colour{
+    grid-area: colour;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+ 
+                #farvertiden{
+    grid-area: farvertiden;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+                    #typo{
+    grid-area: farvertiden;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+                        #typobilleder{
+    grid-area: typobilleder;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    
+}

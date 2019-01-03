@@ -19,28 +19,31 @@
             "link10"
              "link11"
              "link12"
-             "historie"
-             "oprindeligide"
-             "oprindeligbilleder"
-             "vannevarbush"
-             "vannevarbilleder"
-             "douglasengelbart"
-             "engelbartbilleder"
-             "tednelson"
-             "tedbilleder"
-             "timbernes"
-             "timbilleder"
-             "marcan"
-             "marcbilleder"
-             "nyeretid"
-             "nitiniseks"
-             "nitibilleder"
-             "totusinde"
-             "totubilleder"
-             "totusindetre"
-             "totutrebilleder"
-             "totusindeti"
-             "totutibilleder"
+             "link13"
+             "link14"
+             "link15"
+             "link16"
+             "link17"
+             "kommunikation"
+             "lidt"
+             "typer"
+             "eksempel"
+             "hvad"
+             "kongruent"
+             "synkron"
+             "synogasyn"
+             "paradigme"
+             "pasamhu"
+             "transpara"
+             "modeller"
+             "interaktion"
+             "konte"
+             "referant"
+             "mindmap"
+             "opga"
+             "spørg"
+             "budweiser"
+             "brugt"
              "footer";
     }
   
@@ -151,97 +154,109 @@ header  {
     grid-area: link12;
 }
 
+#link13{
+    grid-area: link13;
+}
 
-#historie{
-    grid-area: historie;
+#link14{
+    grid-area: link14;
+}
+
+#link15{
+    grid-area: link15;
+}
+
+#link16{
+    grid-area: link16;
+}
+
+#link17{
+    grid-area: link17;
+}
+
+
+#kommunikation{
+    grid-area: kommunikation;
     
 }
 
-#oprindeligide {
-    grid-area: oprindeligide;
+#lidt{
+    grid-area: lidt;
 }
 
-#oprindeligbilleder{
-    grid-area: oprindeligbilleder;
+#typer{
+    grid-area: typer;
 }
 
-#vannevarbush{
-    grid-area: vannevarbush;
+#eksempel{
+    grid-area: eksempel;
 }
 
-#vannevarbilleder{
-    grid-area: vannevarbilleder;
+#hvad{
+    grid-area: hvad;
 }
 
-#douglasengelbart {
-    grid-area: douglasengelbart;
+#kongruent{
+    grid-area: kongruent;
 }
 
-#engelbartbilleder{
-    grid-area: engelbartbilleder;
+#synkron{
+    grid-area: synkron;
 }
 
-#tednelson {
-    grid-area: tednelson;
+#synogasyn{
+    grid-area: synogasyn;
 }
 
-#tedbilleder{
-    grid-area: tedbilleder;
+#paradigme{
+    grid-area: paradigme;
 }
 
-#timbernes{
-    grid-area: timbernes;
+#pasamhu{
+    grid-area: pasamhu;
 }
 
-#timbilleder{
-    grid-area: timbilleder;
+#transpara{
+    grid-area: transpara;
 }
 
-#marcan {
-    grid-area: marcan;
+#modeller{
+    grid-area: modeller;
 }
 
-#marcbilleder{
-    grid-area: marcbilleder;
+#interaktion{
+    grid-area: interaktion;
 }
 
-#nyeretid{
-    grid-area: nyeretid;
-}
-
-
-#nitiniseks {
-    grid-area: paragraph;
-}
-
-#nitibilleder{
-    grid-area: nitibilleder;
+#konte{
+    grid-area: konte;
 }
 
 
-#totusinde {
-    grid-area: totusinde;
+#referant{
+    grid-area: referant;
 }
 
-#totubilleder{
-    grid-area: totubilleder;
+#mindmap{
+    grid-area: mindmap;
 }
 
-#totusindetre{
-    grid-area: totusindetre;
+
+#opga{
+    grid-area: opga;
+}
+
+#spørg{
+    grid-area: spørg;
+}
+
+#budweiser{
+    grid-area: budweiser;
     
 }
 
-#totutrebilleder{
-    grid-area: totutrebilleder;
-}
-
-#totusindeti {
-    grid-area: totusindeti;
-}
-
-#totutibilleder{
-    grid-area: totutibilleder;
+#brugt{
+    grid-area: brugt;
 }
 
 footer {
@@ -275,7 +290,7 @@ blockquote:before, blockquote:after, q:before, q:after {
          grid-gap: 0em;
          grid-template-columns: 1fr;
          grid-template-areas: 
-              "header"
+             "header"
             "navigation"
             "kortom"
             "link1" 
@@ -290,28 +305,31 @@ blockquote:before, blockquote:after, q:before, q:after {
             "link10"
              "link11"
              "link12"
-             "historie"
-             "oprindeligide"
-             "oprindeligbilleder"
-             "vannevarbush"
-             "vannevarbilleder"
-             "douglasengelbart"
-             "engelbartbilleder"
-             "tednelson"
-             "tedbilleder"
-             "timbernes"
-             "timbilleder"
-             "marcan"
-             "marcbilleder"
-             "nyeretid"
-             "nitiniseks"
-             "nitibilleder"
-             "totusinde"
-             "totubilleder"
-             "totusindetre"
-             "totutrebilleder"
-             "totusindeti"
-             "totutibilleder"
+             "link13"
+             "link14"
+             "link15"
+             "link16"
+             "link17"
+             "kommunikation"
+             "lidt"
+             "typer"
+             "eksempel"
+             "hvad"
+             "kongruent"
+             "synkron"
+             "synogasyn"
+             "paradigme"
+             "pasamhu"
+             "transpara"
+             "modeller"
+             "interaktion"
+             "konte"
+             "referant"
+             "mindmap"
+             "opga"
+             "spørg"
+             "budweiser"
+             "brugt"
              "footer";
     }
 
@@ -351,28 +369,31 @@ blockquote:before, blockquote:after, q:before, q:after {
             "link10"
              "link11"
              "link12"
-             "historie"
-             "oprindeligide"
-             "oprindeligbilleder"
-             "vannevarbush"
-             "vannevarbilleder"
-             "douglasengelbart"
-             "engelbartbilleder"
-             "tednelson"
-             "tedbilleder"
-             "timbernes"
-             "timbilleder"
-             "marcan"
-             "marcbilleder"
-             "nyeretid"
-             "nitiniseks"
-             "nitibilleder"
-             "totusinde"
-             "totubilleder"
-             "totusindetre"
-             "totutrebilleder"
-             "totusindeti"
-             "totutibilleder"
+             "link13"
+             "link14"
+             "link15"
+             "link16"
+             "link17"
+             "kommunikation"
+             "lidt"
+             "typer"
+             "eksempel"
+             "hvad"
+             "kongruent"
+             "synkron"
+             "synogasyn"
+             "paradigme"
+             "pasamhu"
+             "transpara"
+             "modeller"
+             "interaktion"
+             "konte"
+             "referant"
+             "mindmap"
+             "opga"
+             "spørg"
+             "budweiser"
+             "brugt"
              "footer";
     }
     
@@ -389,161 +410,147 @@ blockquote:before, blockquote:after, q:before, q:after {
     
 }
     
-    #historie{
-        grid-area: historie;
+    #kommunikation{
+        grid-area: kommunikation;
         position: relative;
         text-align: center;
         color: black;
     }
     
-    #oprindeligide {
-    grid-area: oprindeligide;
+    #lidt{
+    grid-area: lidt;
     position: relative;
     text-align: center;
     color: black;
     
     
 }
-    #oprindeligbilleder{
-        grid-area: oprindeligbilleder;
+    #typer{
+        grid-area: typer;
         position: relative;
         text-align: center;
         color: black;
     } 
     
-#vannevarbush{
-    grid-area: vannevarbush;
+#eksempel{
+    grid-area: eksempel;
      position: relative;
     text-align: center;
     color: black;
 }
 
-    #vannevarbilleder{
-        grid-area: vannevarbilleder;
+    #hvad{
+        grid-area: hvad;
         position: relative;
         text-align: center;
         color: black;
     }
 
-#douglasengelbart {
-    grid-area: douglasengelbart;
+#kongruent{
+    grid-area: kongruent;
      position: relative;
     text-align: center;
     color: black;
 }
 
-    #engelbartbilleder{
-        grid-area: engelbartbilleder;
+    #synkron{
+        grid-area: synkron;
      position: relative;
     text-align: center;
     color: black;
     }
 
-#tednelson {
-    grid-area: tednelson;
+#synogasyn{
+    grid-area: synogasyn;
      position: relative;
     text-align: center;
     color: black;
 }
 
-    #tedbilleder{
-        grid-area: tedbilleder;
+    #paradigme{
+        grid-area: paradigme;
         position: relative;
     text-align: center;
     color: black;
     }
 
-#timbernes{
-    grid-area: timbernes;
+#pasamhu{
+    grid-area: pasamhu;
      position: relative;
     text-align: center;
     color: black;
 }
 
-    #timbilleder{
-        grid-area: timbilleder;
-        position: relative;
-        text-align: center;
-        color: black;
-    }
-
-#marcan {
-    grid-area: marcan;
-     position: relative;
-    text-align: center;
-    color: black;
-}
-
-    #marcbilleder{
-        grid-area: marcbilleder;
+    #transpara{
+        grid-area: transpara;
         position: relative;
         text-align: center;
         color: black;
     }
 
-#nyeretid{
-    grid-area: nyeretid;
+#modeller{
+    grid-area: modeller;
      position: relative;
     text-align: center;
     color: black;
 }
 
-
-#nitiniseks {
-    grid-area: paragraph;
-     position: relative;
-    text-align: center;
-    color: black;
-}
-
-    #nitibilleder{
-        grid-area: nitibilleder;
-        position: relative;
-        text-align: center;
-        color: black;
-    }
-    
-    #totusinde{
-    grid-area: totusinde;
-     position: relative;
-    text-align: center;
-    color: black;
-}
-
-    #totubilleder{
-        grid-area: totubilleder;
+    #interaktion{
+        grid-area: interaktion;
         position: relative;
         text-align: center;
         color: black;
     }
 
-#totusindetre{
-    grid-area: totusindetre;
-     position: relative;
-    text-align: center;
-    color: black;
-    
-}
-
-    #totutrebilleder{
-        grid-area: totutrebilleder;
-        position: relative;
-        text-align: center;
-        color: black;
-    }
-
-#totusindeti {
-    grid-area: totusindeti;
+#konte{
+    grid-area: konte;
      position: relative;
     text-align: center;
     color: black;
 }
 
-    #totutibilleder{
-        grid-area: totutibilleder;
+
+#referant{
+    grid-area: referant;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+    #mindmap{
+        grid-area: mindmap;
         position: relative;
         text-align: center;
         color: black;
     }
     
+    #opga{
+    grid-area: opga;
+     position: relative;
+    text-align: center;
+    color: black;
+}
+
+    #spørg{
+        grid-area: spørg;
+        position: relative;
+        text-align: center;
+        color: black;
     }
+
+#budweiser{
+    grid-area: budweiser;
+     position: relative;
+    text-align: center;
+    color: black;
+    
+}
+
+    #brugt{
+        grid-area: brugt;
+        position: relative;
+        text-align: center;
+        color: black;
+    }
+    
+}

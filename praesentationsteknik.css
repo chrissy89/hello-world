@@ -1,0 +1,343 @@
+ #pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5"
+             "link6"
+             "link7"
+             "link8"
+             "citeret"
+             "formaal"
+             "dispositio"
+             "elev"
+             "elocutio"
+             "godkropsh"
+             "bevaegelse"
+             "bevmik"
+             "humor"
+             "undgaa"
+             "footer";
+    }
+  
+#pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+    
+header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: navy;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+
+    
+ #kortom {
+    grid-area: kortom;
+    justify-content: center;
+    text-align: center;
+     background-color: sandybrown;
+    
+}
+    
+#link1 {
+    grid-area: link1;
+    
+   
+}
+
+#link2 {
+    grid-area: link2;
+    
+}
+
+#link3 {
+    grid-area: link3;
+    
+}
+
+#link4 {
+    grid-area: link4;
+   
+}
+
+#link5{
+    grid-area: link5;
+}
+
+#link6{
+    grid-area: link6;
+}
+
+#link7{
+    grid-area: link7;
+}
+
+#link8{
+    grid-area: link8;
+}
+
+#citeret{
+    grid-area: citeret;
+    
+}
+
+#formaal{
+    grid-area: formaal;
+}
+
+#dispositio{
+    grid-area: dispositio;
+}
+
+#elev{
+    grid-area: elev;
+}
+
+#elocutio{
+    grid-area: elocutio;
+}
+
+#godkropsh{
+    grid-area: godkropsh;
+}
+
+#bevaegelse{
+    grid-area: bevaegelse;
+}
+
+#bevmik{
+    grid-area: bevmik;
+}
+
+#humor{
+    grid-area: humor;
+}
+
+#undgaa{
+    grid-area: undgaa;
+}
+
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;   
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+}
+
+    
+
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5"
+             "link6"
+             "link7"
+             "link8"
+             "citeret"
+             "formaal"
+             "dispositio"
+             "elev"
+             "elocutio"
+             "godkropsh"
+             "bevaegelse"
+             "bevmik"
+             "humor"
+             "undgaa"
+             "footer";
+    }
+
+    
+    body {
+        background-color: royalblue;
+    }
+    
+    #kortom{
+        background-color: blue;
+    } 
+    
+    #ocean{
+        height: 200px;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px){
+#pagewrap {
+         display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+            "kortom"
+            "link1" 
+             "link2" 
+             "link3"
+            "link4"
+             "link5"
+             "link6"
+             "link7"
+             "link8"
+             "citeret"
+             "formaal"
+             "dispositio"
+             "elev"
+             "elocutio"
+             "godkropsh"
+             "bevaegelse"
+             "bevmik"
+             "humor"
+             "undgaa"
+             "footer";
+    }
+
+    body {
+        background-color: cadetblue;
+    }
+    
+    #kortom{
+        grid-area: kortom;
+        position: relative;
+        text-align: center;
+        background-color: teal;
+    }
+
+    
+     #citeret{
+    grid-area: citeret;
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+    #formaal{
+    grid-area: formaal;
+    position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+     #dispositio{
+    grid-area: dispositio;
+    position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+     #elev{
+    grid-area: elev;
+    position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+    #elocutio{
+        grid-area: elocutio;
+         position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+    #godkropsh{
+        grid-area: godkropsh;
+        position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+    #bevaegelse{
+        grid-area: bevaegelse;
+         position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+    #bevmik{
+        grid-area: bevmik;
+          position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+    #humor{
+        grid-area: humor;
+         position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+    #undgaa{
+        grid-area: undgaa;
+         position: relative;
+    text-align: center;
+        color: black;
+    }
+    
+}
