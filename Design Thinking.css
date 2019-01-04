@@ -1,0 +1,203 @@
+/*mobile */
+
+#pagewrap {
+display: grid;
+grid-gap: 0em;
+width: 100%;
+grid-template-columns: 1fr;
+grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d" 
+    "e" 
+    "f"
+    "g"
+    "h" 
+    "i"
+    "j" 
+    "k" 
+    "l"
+    "m"
+    "n"
+    "o";
+}
+    
+header {
+grid-area: a;
+padding-bottom: 0;
+width: 100%;
+}
+
+#sunset {
+padding-bottom: 0;
+width: 100%;
+}
+ 
+#navigation {
+background-color: seashell;
+color: black;
+grid-area: b;
+}
+    
+ul li {
+display: inline-block;
+border-bottom-width: 1px;
+border-color: black;
+}
+
+#Kortom {
+grid-area: c;
+justify-content: center;
+text-align: center;
+background-color: sandybrown;
+margin-bottom: 30px;
+}
+
+#billede1 {
+grid-area: d;
+}
+
+#billede2 {
+grid-area: e;
+}
+
+#billede3 {
+grid-area: f;
+}
+
+#billede4 {
+grid-area: g;
+}
+
+#billede5{
+grid-area: h;
+}
+
+#billede6 {
+grid-area: i;
+}
+
+#billede7 {
+grid-area: j;
+}
+
+#billede8 {
+grid-area: k;
+}
+
+#billede9 {
+grid-area: l;
+}
+
+#billede10{
+grid-area: m;
+}
+
+#billede11{
+grid-area: n;
+}
+    
+footer {
+grid-area: o;
+position: relative;
+text-align: center;
+color: black;
+}
+
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#ocean {
+width: 100%;
+}
+    
+blockquote:before, blockquote:after, q:before, q:after {
+content:''; content:none;
+}
+
+#pagewrap {
+width: 100%;
+}
+
+body {
+background-color: bisque;
+}
+
+body, html {
+margin: 1 em;
+padding: 0;
+width: 100%;}
+
+
+/*tablet*/
+@media screen and (min-width:768px){
+#pagewrap{
+display: grid;
+width: 100%;
+grid-gap: 0em;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: 
+    "a a"
+    "b b"
+    "c c"
+    "d e"
+    "f g"
+    "h i"
+    "j k" 
+    "l m"
+    "n n"
+    "o o";
+}
+
+body {
+background-color: royalblue;
+}
+
+#navigation {
+background-color: skyblue;
+color: black;
+}
+    
+#Kortom {
+background-color: blue;
+}
+
+}
+
+
+@media screen and (min-width: 1200px){
+#pagewrap {
+display: grid;
+width: 100%;
+grid-gap: 1em;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas: 
+    "a a a"
+    "b b b"
+    "c c c"
+    "d e f"
+    "g h i"
+    "j k l"
+    "m n ."
+    "o o o";
+}
+
+body {
+background-color: cadetblue;
+}
+
+#navigation {
+background-color: darkseagreen;
+color: black;
+}    
+    
+#Kortom {
+background-color: teal;
+}
+
+}

@@ -13,28 +13,19 @@
             "link4"
              "link5"
              "link6"
-             "link7"
-             "link8"
-             "link9"
-             "link10"
-             "link11"
-             "link12"
-             "link13"
              "citeret"
-             "hvad"
              "hvorfor"
-             "viden"
-             "paradigme"
-             "positiv"
-             "herm"
-             "metode"
-             "metodisk"
-             "kvalitativ"
-             "kvantitativ"
+             "hvad"
+             "mind"
+             "metoder"
+             "fem"
+             "ideo"
+             "model"
+             "divergent"
+             "diver"
+             "konvergent"
+             "typisk"
              "bruger"
-             "tests"
-             "formaal"
-             "illusion"
              "footer";
     }
   
@@ -118,93 +109,56 @@ header  {
     grid-area: link6;
 }
 
-#link7{
-    grid-area: link7;
-}
-
-#link8{
-    grid-area: link8;
-}
-
-#link9{
-    grid-area: link9;
-}
-
-#link10{
-    grid-area: link10;
-}
-
-#link11{
-    grid-area: link11;
-}
-
-#link12{
-    grid-area: link12;
-}
-
-#link13{
-    grid-area: link13;
-}
-
 #citeret{
-    grid-area: citeret;
-    
-}
-
-#hvad{
-    grid-area: hvad;
+    grid-area: citeret; 
 }
 
 #hvorfor{
     grid-area: hvorfor;
 }
 
-#viden{
-    grid-area: viden;
+#hvad{
+    grid-area: hvad;
 }
 
-#paradigme{
-    grid-area: paradigme;
+#mind{
+    grid-area: mind;
 }
 
-#positiv{
-    grid-area: positiv;
+#metoder{
+    grid-area: metoder;
 }
 
-#herm{
-    grid-area: herm;
+#fem{
+    grid-area: fem;
 }
 
-#metode{
-    grid-area: metode;
+#ideo{
+    grid-area: ideo;
 }
 
-#metodisk{
-    grid-area: metodisk;
+#model{
+    grid-area: model;
 }
 
-#kvalitativ{
-    grid-area: kvalitativ;
+#divergent{
+    grid-area: divergent;
 }
 
-#kvantitativ{
-    grid-area: kvantitativ;
+#diver{
+    grid-area: diver;
+}
+
+#konvergent{
+    grid-area: konvergent;
+}
+
+#typisk{
+    grid-area: typisk;
 }
 
 #bruger{
     grid-area: bruger;
-}
-
-#tests{
-    grid-area: tests;
-}
-
-#formaal{
-    grid-area: formaal;
-}
-
-#illusion{
-    grid-area: illusion;
 }
 
 footer {
@@ -238,7 +192,7 @@ blockquote:before, blockquote:after, q:before, q:after {
          grid-gap: 0em;
          grid-template-columns: 1fr;
          grid-template-areas: 
-             "header"
+           "header"
             "navigation"
             "kortom"
             "link1" 
@@ -247,28 +201,19 @@ blockquote:before, blockquote:after, q:before, q:after {
             "link4"
              "link5"
              "link6"
-             "link7"
-             "link8"
-             "link9"
-             "link10"
-             "link11"
-             "link12"
-             "link13"
              "citeret"
-             "hvad"
              "hvorfor"
-             "viden"
-             "paradigme"
-             "positiv"
-             "herm"
-             "metode"
-             "metodisk"
-             "kvalitativ"
-             "kvantitativ"
+             "hvad"
+             "mind"
+             "metoder"
+             "fem"
+             "ideo"
+             "model"
+             "divergent"
+             "diver"
+             "konvergent"
+             "typisk"
              "bruger"
-             "tests"
-             "formaal"
-             "illusion"
              "footer";
     }
 
@@ -295,7 +240,7 @@ blockquote:before, blockquote:after, q:before, q:after {
          grid-gap: 0em;
          grid-template-columns: 1fr;
          grid-template-areas: 
-             "header"
+         "header"
             "navigation"
             "kortom"
             "link1" 
@@ -304,28 +249,19 @@ blockquote:before, blockquote:after, q:before, q:after {
             "link4"
              "link5"
              "link6"
-             "link7"
-             "link8"
-             "link9"
-             "link10"
-             "link11"
-             "link12"
-             "link13"
              "citeret"
-             "hvad"
              "hvorfor"
-             "viden"
-             "paradigme"
-             "positiv"
-             "herm"
-             "metode"
-             "metodisk"
-             "kvalitativ"
-             "kvantitativ"
+             "hvad"
+             "mind"
+             "metoder"
+             "fem"
+             "ideo"
+             "model"
+             "divergent"
+             "diver"
+             "konvergent"
+             "typisk"
              "bruger"
-             "tests"
-             "formaal"
-             "illusion"
              "footer";
     }
 
@@ -333,102 +269,104 @@ blockquote:before, blockquote:after, q:before, q:after {
         background-color: cadetblue;
     }
     
-#kortom{
-    grid-area: kortom;
-    position: relative;
-    text-align: center;
-    background-color: teal;
- }
+    #kortom{
+        grid-area: kortom;
+        position: relative;
+        text-align: center;
+        color: black;
+        background-color: teal;
+    }
 
-#citeret{
+ #citeret{
     grid-area: citeret;
-    position: relative;
-    text-align: center;
-}
-
-#hvad{
-    grid-area: hvad;
-    position: relative;
-    text-align: center;
+     position: relative;
+        text-align: center;
+        color: black;
 }
 
 #hvorfor{
     grid-area: hvorfor;
     position: relative;
-    text-align: center;
+        text-align: center;
+        color: black;
 }
 
-#viden{
-    grid-area: viden;
+#hvad{
+    grid-area: hvad;
     position: relative;
-    text-align: center;
+        text-align: center;
+        color: black;
 }
 
-#paradigme{
-    grid-area: paradigme;
+#mind{
+    grid-area: mind;
     position: relative;
-    text-align: center;
+        text-align: center;
+        color: black;
 }
 
-#positiv{
-    grid-area: positiv;
+#metoder{
+    grid-area: metoder;
     position: relative;
-    text-align: center;
+        text-align: center;
+        color: black;
 }
 
-#herm{
-    grid-area: herm;
+#fem{
+    grid-area: fem;
     position: relative;
-    text-align: center;
+        text-align: center;
+        color: black;
 }
 
-#metode{
-    grid-area: metode;
+#ideo{
+    grid-area: ideo;
     position: relative;
-    text-align: center;
+        text-align: center;
+        color: black;
 }
 
-#metodisk{
-    grid-area: metodisk;
+#model{
+    grid-area: model;
     position: relative;
-    text-align: center;
+        text-align: center;
+        color: black;
 }
 
-#kvalitativ{
-    grid-area: kvalitativ;
+#divergent{
+    grid-area: divergent;
     position: relative;
-    text-align: center;
+        text-align: center;
+        color: black;
 }
 
-#kvantitativ{
-    grid-area: kvantitativ;
+#diver{
+    grid-area: diver;
     position: relative;
-    text-align: center;
+        text-align: center;
+        color: black;
+}
+
+#konvergent{
+    grid-area: konvergent;
+    position: relative;
+        text-align: center;
+        color: black;
+}
+
+#typisk{
+    grid-area: typisk;
+    position: relative;
+        text-align: center;
+        color: black;
 }
 
 #bruger{
     grid-area: bruger;
     position: relative;
-    text-align: center;
+        text-align: center;
+        color: black;
 }
 
-#tests{
-    grid-area: tests;
-    position: relative;
-    text-align: center;
-}
-
-#formaal{
-    grid-area: formaal;
-    position: relative;
-    text-align: center;
-}
-
-#illusion{
-    grid-area: illusion;
-    grid-area: formaal;
-    position: relative;
-    text-align: center;
-}
     
 }

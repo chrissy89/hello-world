@@ -1,0 +1,174 @@
+#pagewrap {
+        display: grid;
+         grid-gap: 0em;
+        width: 100%;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+            "header"
+            "navigation"
+             "portfolio"
+             "for"
+             "proces"
+             "footer";
+    }
+  
+#pagewrap {
+        width: 100%;
+    }
+    body {
+        background-color: bisque;}
+
+    body, html {
+        margin: 1 em;
+        padding: 0;
+        width: 100%;}
+    
+header  {
+    grid-area: header;
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+
+
+#sunset {
+    padding-bottom: 0;
+    width: 100%;
+     
+    
+    }
+ 
+    
+#navigation {
+    grid-area: navigation;
+    background-color: seashell;
+    color: black;
+    
+    }
+    
+ ul li {
+        display: inline-block;
+        border-bottom-width: 1px;
+        border-color: black;
+    }
+
+#portfolio{
+    grid-area: portfolio;
+}
+
+#for{
+    grid-area: for;
+}
+
+#proces{
+    grid-area: proces;
+}
+
+footer {
+    grid-area: footer;
+    position: relative;
+    text-align: center;
+    color: black;   
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ocean {
+    width: 100%;
+}
+    
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+}
+
+    
+
+@media screen and (min-width:768px){
+    #pagewrap{
+    display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+           "header"
+            "navigation"
+             "portfolio"
+             "for"
+             "proces"
+             "footer";
+    }
+
+    
+    body {
+        background-color: royalblue;
+    }
+    
+    #navigation {
+    grid-area: navigation;
+    background-color: skyblue;
+    color: black;
+    
+    }
+    
+    #ocean{
+        height: 200px;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px){
+#pagewrap {
+         display: grid;
+        width: 100%;
+         grid-gap: 0em;
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+         "header"
+            "navigation"
+             "portfolio"
+             "for"
+             "proces"
+             "footer";
+    }
+
+    body {
+        background-color: cadetblue;
+    }
+    
+     #navigation {
+    grid-area: navigation;
+    background-color: darkseagreen;
+    color: black;
+    
+    }
+
+#portfolio{
+    grid-area: portfolio;
+    position: relative;
+        text-align: center;
+        color: black;
+}
+
+#for{
+    grid-area: for;
+    position: relative;
+        text-align: center;
+        color: black;
+}
+
+#proces{
+    grid-area: proces;
+    position: relative;
+        text-align: center;
+        color: black;
+}
+
+
+}
